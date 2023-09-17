@@ -1,9 +1,9 @@
 # HOKULEA Official WebSite
 
-<img width="50%"  alt="logo" src="https://github.com/kohta9521/HOKULEA_Official_WebSite/assets/100065508/8a9790c8-c9e4-4948-b493-d1c4ca222c8e">
+![photo-output](https://github.com/kohta9521/HOKULEA_Official_WebSite/assets/100065508/20fc234a-134c-476f-97a0-ad86a20d6c02)
 
 
-About the Community HOKULEA
+## About the Community HOKULEA
 
 We wanted to create a place where people could meet like-minded people and make memories,
 We established HOKULEA to provide a place where people can meet like-minded people and make memories. We established HOKULEA to provide a place where people can meet like-minded people and make memories.

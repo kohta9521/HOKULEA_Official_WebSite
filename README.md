@@ -11,6 +11,9 @@ The concept of this community is "the ocean".
 
 # DEMO
 
+<img width="1729" alt="main" src="https://github.com/kohta9521/HOKULEA_Official_WebSite/assets/100065508/234a9b32-e601-4b2d-be64-b787c20f97a1">
+
+
 The website is currently under development, but you can view the older version of the website at the link below. ↓
 
 https://seradoa.com/

@@ -1,17 +1,17 @@
-name: pull-request
-on: [pull_request]
-
+name: Check the source code
+on:
+  pull_request:
+    branches:
+      - main
 jobs:
-  app:
+  test:
+    name: Check the source code
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
-        with:
-      - run: npm ci
-      - name: Run ESLint
-        uses: reviewdog/action-eslint@v1
-        with:
-        reporter: github-check
-        eslint_flags: "src/"
-        fail_on_error: true
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: npm ci
+      - name: Prettier
+        run: npm run format
+      - name: Lint
+        run: npm run lint

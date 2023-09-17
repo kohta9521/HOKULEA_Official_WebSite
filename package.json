@@ -35,7 +35,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-customizable"
+      "path": "cz-conventional-changelog-ja"
     }
   }
 }

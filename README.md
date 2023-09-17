@@ -1,32 +1,33 @@
-# VYBE Official WebSite
+# HOKULEA Official WebSite
 
-VYBE is 
+About the Community HOKULEA
 
-BE CLEAN,
-BE BE COOL, 
-BE CASUAL, 
+We wanted to create a place where people could meet like-minded people and make memories,
+We established HOKULEA to provide a place where people can meet like-minded people and make memories. We established HOKULEA to provide a place where people can meet like-minded people and make memories.
+We also provide a place where people can experience surfing, which is rare but very much needed and attractive.
+We also wanted to provide a place where people could experience surfing, which is rare but very much needed and has a lot of appeal.
+The concept of this community is "the ocean".
 
-VYBE is an environmental issues community for young people. This repository is the official website of the community.
 
 # DEMO
 
-The website can be accessed at the following link ↓
+The website is currently under development, but you can view the older version of the website at the link below. ↓
 
-https://kohta9521.github.io/VYBE_Official_Website/
-
-
-https://vybe-3c.my.canva.site/
+https://seradoa.com/
 
 # Features
 
 
 # Requirement
 
+* Nextjs  13.4.19
 * React  18.2.0
-* TypeScript  4.9.5
+* TypeScript  5.2.2
 * ESlint  8.49.0
-* Prettier  3.0.3
-* Husky  8.0.3
+* Prittier  3.0.3
+* Husky  8.0.8
+* Jest  29.7.0
+* commitizen  4.3.0
 
 # Installation
 

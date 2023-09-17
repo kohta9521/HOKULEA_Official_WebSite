@@ -1,6 +1,6 @@
 # HOKULEA Official WebSite
 
-<img width="343" alt="logo" src="https://github.com/kohta9521/HOKULEA_Official_WebSite/assets/100065508/8a9790c8-c9e4-4948-b493-d1c4ca222c8e">
+<img width="50%"  alt="logo" src="https://github.com/kohta9521/HOKULEA_Official_WebSite/assets/100065508/8a9790c8-c9e4-4948-b493-d1c4ca222c8e">
 
 
 About the Community HOKULEA
@@ -12,11 +12,12 @@ We also wanted to provide a place where people could experience surfing, which i
 The concept of this community is "the ocean".
 
 
+
 # DEMO
 
 <img width="1729" alt="main" src="https://github.com/kohta9521/HOKULEA_Official_WebSite/assets/100065508/234a9b32-e601-4b2d-be64-b787c20f97a1">
 
-
+<br/>
 
 The website is currently under development, but you can view the older version of the website at the link below. ↓
 

@@ -15,8 +15,13 @@ The website is currently under development, but you can view the older version o
 
 https://seradoa.com/
 
+Designs using figma can be found at the following link. We were conscious of reusability from the design stage in order to create component-based products.　　↓
+
+https://www.figma.com/file/eRzBAPKS0do6LQrwHytwCw/Hokulea%E6%A7%98HP%E5%88%B6%E4%BD%9C?type=design&node-id=0%3A1&mode=design&t=Bw95Ic5X000Gzzdn-1
+
 # Features
 
+It is characterized by the use of a relatively new and modern language and framework. We also considered the maintainability and manageability of the code using Prettier/ESlint/commitzen/Husky, etc., assuming that development is done by multiple people.
 
 # Requirement
 

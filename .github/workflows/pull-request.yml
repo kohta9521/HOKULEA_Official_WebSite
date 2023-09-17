@@ -17,3 +17,5 @@ jobs:
         reporter: github-check
         eslint_flags: "src/"
         fail_on_error: true
+      # - name: Run test
+      #   run: npm run test

@@ -9,6 +9,8 @@ export default function Home() {
     <div className={styles.main}>
       <Header />
       <h1 className={styles.title}>Hello HOKULEA New Website!!!</h1>
+      <h1 className={styles.title2}>Hello HOKULEA New Website!!!</h1>
+      <h1 className={styles.title3}>Hello HOKULEA New Website!!!</h1>
     </div>
   );
 }

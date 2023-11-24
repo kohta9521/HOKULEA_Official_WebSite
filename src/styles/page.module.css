@@ -1,18 +1,18 @@
 .title {
-    font-size: 5em;
-    color: var(--orange-main);
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+  color: var(--orange-main);
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 .title2 {
-    font-size: 5em;
-    color: var(--orange-sub);
-    font-weight: 700;
-    font-family: "ApexNew-Book", sans-serif;
+  font-size: 5em;
+  color: var(--orange-sub);
+  font-weight: 700;
+  font-family: "ApexNew-Book", sans-serif;
 }
 .title3 {
-    font-size: 5em;
-    color: var(--white-sub);
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+  color: var(--white-sub);
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }

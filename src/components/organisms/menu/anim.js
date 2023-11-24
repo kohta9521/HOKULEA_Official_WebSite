@@ -3,14 +3,14 @@ export const height = {
     height: 0,
   },
   enter: (i) => ({
-    height: '100%',
+    height: "100%",
     transition: { duration: 0.5, delay: 0.05 * i, ease: [0.33, 1, 0.68, 1] },
   }),
   exit: (i) => ({
     height: 0,
     transition: { duration: 0.3, delay: 0.05 * i, ease: [0.33, 1, 0.68, 1] },
   }),
-}
+};
 
 export const background = {
   initial: {
@@ -24,7 +24,7 @@ export const background = {
     opacity: 0,
     transition: { duration: 0.5, ease: [0.33, 1, 0.68, 1] },
   },
-}
+};
 
 export const opacity = {
   initial: {
@@ -38,7 +38,7 @@ export const opacity = {
     opacity: 0,
     transition: { duration: 0.5, ease: [0.33, 1, 0.68, 1] },
   },
-}
+};
 
 export const slideLeft = {
   initial: {
@@ -52,7 +52,7 @@ export const slideLeft = {
     x: 150,
     transition: { duration: 1, ease: [0.33, 1, 0.68, 1] },
   },
-}
+};
 
 export const rotateX = {
   initial: {
@@ -72,6 +72,6 @@ export const rotateX = {
     opacity: 0,
     transition: { duration: 1, ease: [0.33, 1, 0.68, 1] },
   },
-}
+};
 
-export const mountAnim = { initial: 'initial', animate: 'enter', exit: 'exit' }
+export const mountAnim = { initial: "initial", animate: "enter", exit: "exit" };

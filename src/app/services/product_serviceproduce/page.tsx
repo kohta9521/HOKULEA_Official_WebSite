@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
 // scss import
 
-
-
 const Product = () => {
-    return (
-        <div>
-            <h1>Product</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Product</h1>
+    </div>
+  );
+};
 
-export default Product
+export default Product;

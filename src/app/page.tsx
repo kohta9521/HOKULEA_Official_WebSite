@@ -1,13 +1,15 @@
 // css import
+import MainLayout from "@/components/templates/MainLayout";
 import styles from "../styles/page.module.css";
 
 // components import
-import Header from '../components/organisms/menu/index';
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Header />
+      <MainLayout id={1}>
+        <h1>hello </h1>
+      </MainLayout>
     </div>
   );
 }

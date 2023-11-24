@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
 // scss import
 
-
-
 const Event = () => {
-    return (
-        <div>
-            <h1>Event</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Event</h1>
+    </div>
+  );
+};
 
-export default Event
+export default Event;

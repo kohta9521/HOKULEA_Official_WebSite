@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
 // scss import
 
-
-
 const Outdoor = () => {
-    return (
-        <div>
-            <h1>Outdoor</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Outdoor</h1>
+    </div>
+  );
+};
 
-export default Outdoor
+export default Outdoor;

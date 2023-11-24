@@ -1,11 +1,11 @@
-'use client'
-import styles from './style.module.scss'
+"use client";
+import styles from "./style.module.scss";
 
 export default function Burger({ openMenu }) {
   return (
     <div
       onClick={() => {
-        openMenu()
+        openMenu();
       }}
       className={styles.button}
     >
@@ -22,5 +22,5 @@ export default function Burger({ openMenu }) {
       </svg>
       <p>Menu</p>
     </div>
-  )
+  );
 }

@@ -1,26 +1,79 @@
 .logo {
-    display: block;
+  display: block;
+  line-height: 80px;
 }
 
 // props
 .small {
-    padding: 10px 20px;
-    font-size: 13px;
+  padding: 10px 20px;
+  font-size: 13px;
 }
 .medium {
-    padding: 15px 25px;
-    font-size: 28px;
+  padding: 15px 25px;
+  font-size: 28px;
 }
 .large {
-    padding: 20px 30px;
-    font-size: 30px;
+  padding: 20px 30px;
+  font-size: 30px;
 }
 .white {
-    color: var(--white-main);
+  color: var(--white-main);
+  &:hover {
+    color: var(--orange-main);
+    transition: all 0.5s ease-in-out;
+  }
 }
 .black {
-    color: var(--black-main);
+  color: var(--black-main);
+  &:hover {
+    color: var(--orange-main);
+    transition: all 0.5s ease-in-out;
+  }
 }
 .orange {
+  color: var(--orange-main);
+  &:hover {
+    color: var(--white-main);
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    line-height: 60px;
+  }
+  // props
+  .small {
+    padding: 5px 15px;
+    font-size: 11px;
+  }
+  .medium {
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+  .large {
+    padding: 15px 25px;
+    font-size: 28px;
+  }
+  .white {
+    color: var(--white-main);
+    &:hover {
+      color: var(--orange-main);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  .black {
+    color: var(--black-main);
+    &:hover {
+      color: var(--orange-main);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  .orange {
     color: var(--orange-main);
+    &:hover {
+      color: var(--white-main);
+      transition: all 0.5s ease-in-out;
+    }
+  }
 }

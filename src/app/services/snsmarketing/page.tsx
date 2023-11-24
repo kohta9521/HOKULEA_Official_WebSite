@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
 // scss import
 
-
-
 const SNS = () => {
-    return (
-        <div>
-            <h1>SNS</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>SNS</h1>
+    </div>
+  );
+};
 
-export default SNS
+export default SNS;

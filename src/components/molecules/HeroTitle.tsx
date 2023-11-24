@@ -1,30 +1,23 @@
-import React from 'react'
-
+import React from "react";
 
 // scss import
-import styles from './styles/HeroTitle.module.scss'
-
+import styles from "./styles/HeroTitle.module.scss";
 
 const HeroTitle = () => {
-    return (
-        <div className={styles.heroBox}>
-            <p className={styles.subJaTitle}>
-                今までにない若者のコミュニティ
-            </p>
-            <h1 className={styles.title}>
-                Creativity
-            </h1>
-            <div className={styles.flexBox}>
-                <h1 className={styles.centerTitle}>Energy</h1>
-                <p className={styles.textBoxText}>
-                A HUB FOR THE DYNAMIC CREATIVITY OF YOUTH, FOSTERING A UNIQUE COMMUNITY AND CURATING DIVERSE EVENTS.BASED IN TOKYO.
-                </p>
-            </div>
-            <h1 className={styles.title}>
-                Synergy
-            </h1>
-        </div>
-    )
-}
+  return (
+    <div className={styles.heroBox}>
+      <p className={styles.subJaTitle}>今までにない若者のコミュニティ</p>
+      <h1 className={styles.title}>Creativity</h1>
+      <div className={styles.flexBox}>
+        <h1 className={styles.centerTitle}>Energy</h1>
+        <p className={styles.textBoxText}>
+          A HUB FOR THE DYNAMIC CREATIVITY OF YOUTH, FOSTERING A UNIQUE
+          COMMUNITY AND CURATING DIVERSE EVENTS.BASED IN TOKYO.
+        </p>
+      </div>
+      <h1 className={styles.title}>Synergy</h1>
+    </div>
+  );
+};
 
-export default HeroTitle
+export default HeroTitle;

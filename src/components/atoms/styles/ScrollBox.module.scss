@@ -1,36 +1,52 @@
 .box {
-    width: 350px;
-    height: 80px;
-    background-color: var(--orange-main);
-    .textBox {
-        .triangle {
-
-        }
-        .text {
-
-        }
+  position: absolute;
+  bottom: -40px;
+  left: 200px;
+  width: 350px;
+  height: 80px;
+  padding: 10px 20px;
+  background-color: var(--orange-main);
+  .textBox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    .triangle {
+      color: var(--black-main);
+      line-height: 30px;
+      margin-right: 20px;
     }
-    .imageBox {
-        .img {
-
-        }
+    .text {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 30px;
+      color: var(--black-main);
     }
+  }
+  .imageBox {
+    width: 100%;
+    height: 30px;
+    .img {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .box {
-        .textBox {
-            .triangle {
-    
-            }
-            .text {
-    
-            }
-        }
-        .imageBox {
-            .img {
-    
-            }
-        }
+  .box {
+    left: 40px;
+    width: 230px;
+    .textBox {
+      .triangle {
+        margin-left: 10px;
+      }
+      .text {
+        font-size: 16px;
+      }
     }
+    .imageBox {
+      .img {
+        width: 100%;
+      }
+    }
+  }
 }

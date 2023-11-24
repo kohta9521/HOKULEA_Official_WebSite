@@ -1,0 +1,36 @@
+.box {
+    width: 350px;
+    height: 80px;
+    background-color: var(--orange-main);
+    .textBox {
+        .triangle {
+
+        }
+        .text {
+
+        }
+    }
+    .imageBox {
+        .img {
+
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        .textBox {
+            .triangle {
+    
+            }
+            .text {
+    
+            }
+        }
+        .imageBox {
+            .img {
+    
+            }
+        }
+    }
+}

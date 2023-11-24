@@ -1,0 +1,26 @@
+.logo {
+    display: block;
+}
+
+// props
+.small {
+    padding: 10px 20px;
+    font-size: 13px;
+}
+.medium {
+    padding: 15px 25px;
+    font-size: 28px;
+}
+.large {
+    padding: 20px 30px;
+    font-size: 30px;
+}
+.white {
+    color: var(--white-main);
+}
+.black {
+    color: var(--black-main);
+}
+.orange {
+    color: var(--orange-main);
+}

@@ -14,10 +14,10 @@
 
   /* fonts */
   --main-en: "Apex Mk3-Medium";
-  @font-face {
+  /* @font-face {
     font-family: "myfont";
     src: url("../lpublic/ApexMk3_2FreeWeights/fonts/Apex Mk3-Medium.otf") format("opentype");
-  }
+  } */
 }
 
 

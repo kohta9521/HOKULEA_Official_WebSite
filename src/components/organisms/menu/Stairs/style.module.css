@@ -11,12 +11,12 @@
 .stair {
   width: 20vw;
   height: 100%;
-  background-color: #0051c8;
+  background-color: var(--orange-main);
 }
 
 .background {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #0051c8;
+  background-color: var(--orange-main);
 }

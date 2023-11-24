@@ -15,28 +15,33 @@ const menu = [
     // description: "To See Everything",
   },
   {
-    title: 'COMPANY',
-    subTitle: '会社概要',
+    title: 'ABOUT',
+    subTitle: 'Hokuleaについて',
     link: '/company',
   },
   {
-    title: 'SERVICES',
-    subTitle: 'サービスについて',
+    title: 'COMMUNITY',
+    subTitle: 'コミュニティについて',
     link: '/service',
   },
   {
-    title: 'MEMBER',
-    subTitle: 'メンバー紹介',
+    title: 'WORK',
+    subTitle: 'お仕事や依頼について',
     link: '/member',
   },
   {
-    title: 'PRESS RELEASE',
-    subTitle: 'プレスリリース',
+    title: 'SERVICES',
+    subTitle: '各種サービスについて',
     link: '/pressrelease',
   },
   {
-    title: 'RECRUIT',
-    subTitle: '採用情報',
+    title: 'VISION',
+    subTitle: 'ビジョンについて',
+    link: '/career',
+  },
+  {
+    title: 'TEAM',
+    subTitle: '一緒に作り上げるチームメイト',
     link: '/career',
   },
   {

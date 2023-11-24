@@ -11,6 +11,8 @@
   padding: 10px;
   cursor: pointer;
   z-index: 1;
+  border-left: 0.1px solid var(--white-main);
+  border-bottom: 0.1px solid var(--white-main);
 
   p {
     display: none;
@@ -31,7 +33,7 @@
   }
 
   .background {
-    background-color: #0051c8;
+    background-color: var(--orange-main);
     width: 100%;
     position: absolute;
     left: 0;
@@ -42,6 +44,8 @@
   }
 
   &:hover {
+    border-left: 0.1px solid var(--orange-main);
+    border-bottom: 0.1px solid var(--orange-main);
     p {
       color: white;
     }
@@ -51,7 +55,7 @@
       }
     }
     .background {
-      background-color: #0051c8;
+      background-color: var(--orange-main);
       height: 100%;
     }
   }

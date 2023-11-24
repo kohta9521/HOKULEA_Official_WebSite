@@ -2,8 +2,11 @@
   position: relative;
   width: 100%;
   height: calc(100vh - 100px);
+  padding-top: 200px;
+  box-sizing: border-box;
   .container {
     max-width: 1500px;
+    margin: 0 auto;
     color: var(--white-main);
   }
 }
@@ -11,5 +14,6 @@
 @media screen and (max-width: 1024px) {
   .hero {
     height: calc(100vh - 60px);
+    padding-top: 170px;
   }
 }

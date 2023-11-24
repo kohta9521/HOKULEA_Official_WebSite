@@ -1,0 +1,14 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 100px);
+  .container {
+    max-width: 1500px;
+    color: var(--white-main);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: calc(100vh - 60px);
+  }
+}

@@ -11,7 +11,6 @@ export default function Home() {
     <div className={styles.main}>
       <MainLayout id={1}>
         <Hero />
-        <About />
       </MainLayout>
     </div>
   );

@@ -53,9 +53,54 @@
 
 @media screen and (max-width: 1024px) {
   .about {
+    width: 100%;
     padding: 150px 0;
+    box-sizing: border-box;
     .container {
       width: 90%;
+      max-width: 1800px;
+      margin: 0 auto;
+      .flexBox {
+        width: 100%;
+        display: block;
+        .leftBox {
+          width: 100%;
+          margin-bottom: 40px;
+          .image {
+            width: 100%;
+          }
+        }
+        .rightBox {
+          position: relative;
+          width: 100%;
+          color: var(--white-main);
+          .title {
+            display: block;
+            margin-bottom: 30px;
+            text-align: left;
+            font-family: Helvetica Neue;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+          }
+          .text {
+            text-align: left;
+            font-family: Helvetica Neue;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-bottom: 70px;
+          }
+          .buttonBox {
+            position: absolute;
+            width: 200px;
+            height: 55px;
+            left: 0;
+          }
+        }
+      }
     }
   }
 }

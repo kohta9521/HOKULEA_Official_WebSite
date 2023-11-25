@@ -5,6 +5,7 @@ import styles from "../styles/page.module.css";
 import MainLayout from "@/components/templates/MainLayout";
 import Hero from "@/components/organisms/Hero";
 import About from "@/components/organisms/About";
+import HoverTile from "@/components/organisms/HoverTile";
 
 // components import
 
@@ -14,6 +15,7 @@ export default function Home() {
       <MainLayout id={1}>
         <Hero />
         <About />
+        <HoverTile />
       </MainLayout>
     </div>
   );

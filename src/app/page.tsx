@@ -1,6 +1,8 @@
 // css import
-import MainLayout from "@/components/templates/MainLayout";
 import styles from "../styles/page.module.css";
+
+// components import
+import MainLayout from "@/components/templates/MainLayout";
 import Hero from "@/components/organisms/Hero";
 import About from "@/components/organisms/About";
 
@@ -11,6 +13,7 @@ export default function Home() {
     <div className={styles.main}>
       <MainLayout id={1}>
         <Hero />
+        <About />
       </MainLayout>
     </div>
   );

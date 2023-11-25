@@ -3,13 +3,19 @@ import React from "react";
 // scss import
 import styles from "./styles/About.module.scss";
 
-// compoennts import
+// components import
+import SecTitle from "../atoms/SecTitle";
 
 const About = () => {
   return (
     <div className={styles.about}>
       <div className={styles.container}>
-        <h1>about section!!</h1>
+        <SecTitle
+          id={1}
+          number={"01"}
+          jaTitle={"『HOKULEA』とは"}
+          enTitle={"ABOUT"}
+        />
       </div>
     </div>
   );

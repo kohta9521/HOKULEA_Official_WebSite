@@ -1,0 +1,61 @@
+.service {
+    width: 100%;
+    padding: 200px 0;
+    box-sizing: border-box;
+    .container {
+        width: 80%;
+        max-width: 1800px;
+        margin: 0 auto;
+        border-top: 0.1px solid rgb(150, 150, 150);
+        .mainTextBox {
+            width: 50%;
+            margin-top: 30px;
+            .text {
+                color: var(--white-main);
+                text-align: left;
+                font-family: Helvetica Neue;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 35px;
+                margin-bottom: 100px;
+                .accentText {
+                    font-size: 19px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .service {
+        width: 100%;
+        padding: 150px 0;
+        box-sizing: border-box;
+        .container {
+            width: 90%;
+            max-width: 1800px;
+            margin: 0 auto;
+            border-top: 0.1px solid rgb(150, 150, 150);
+            .mainTextBox {
+                width: 100%;
+                margin-top: 30px;
+                .text {
+                    color: var(--white-main);
+                    text-align: left;
+                    font-family: Helvetica Neue;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 100px;
+                    .accentText {
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

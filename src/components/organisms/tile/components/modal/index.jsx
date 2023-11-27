@@ -2,6 +2,7 @@ import { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './style.module.css';
 import gsap from 'gsap';
+import Link from 'next/link';
 
 const scaleAnimation = {
     initial: {scale: 0, x:"-50%", y:"-50%"},
@@ -41,10 +42,10 @@ const Modal =({modal, projects}) => {
   return (
     <>
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className={styles.modalContainer}>
-            <div style={{top: index * -100 + "%"}} className={styles.modalSlider}>
+            <div  style={{top: index * -100 + "%"}} className={styles.modalSlider}>
             {
                 projects.map( (project, index) => {
-                const { src, color } = project
+                const { src, color, link } = project
                 return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`}>
                     <img
                     src={`/images/${src}`}
@@ -55,6 +56,7 @@ const Modal =({modal, projects}) => {
             }
             </div>
         </motion.div>
+        {/* TODO: ここにのもっと見るボタンに対してリンクを貼る　mapを使用するか？？？ */}
         <motion.div ref={cursor} className={styles.cursor} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
         <motion.div ref={cursorLabel} className={styles.cursorLabel} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}>View</motion.div>
     </>

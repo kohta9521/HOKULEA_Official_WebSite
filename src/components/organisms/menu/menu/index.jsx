@@ -17,32 +17,32 @@ const menu = [
   {
     title: "ABOUT",
     subTitle: "Hokuleaについて",
-    link: "/company",
+    link: "/about",
   },
   {
     title: "COMMUNITY",
     subTitle: "コミュニティについて",
-    link: "/service",
+    link: "/community",
   },
   {
     title: "WORK",
     subTitle: "お仕事や依頼について",
-    link: "/member",
+    link: "/work",
   },
   {
     title: "SERVICES",
     subTitle: "各種サービスについて",
-    link: "/pressrelease",
+    link: "/services",
   },
   {
     title: "VISION",
     subTitle: "ビジョンについて",
-    link: "/career",
+    link: "/vision",
   },
   {
     title: "TEAM",
     subTitle: "一緒に作り上げるチームメイト",
-    link: "/career",
+    link: "/team",
   },
   {
     title: "CONTACT",

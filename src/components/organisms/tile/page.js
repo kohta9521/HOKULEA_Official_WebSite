@@ -8,22 +8,26 @@ const projects = [
   {
     title: "OUTDOOR",
     src: "outdoor.png",
-    color: "#000000"
+    color: "#000000",
+    link: '/community/outdoor'
   },
   {
     title: "SURFING",
     src: "surfing.jpg",
-    color: "#000000"
+    color: "#000000",
+    link: '/community/outdoor'
   },
   {
     title: "ENVIRONMENT",
     src: "environment.jpg",
-    color: "#000000"
+    color: "#000000",
+    link: '/community/outdoor'
   },
   {
     title: "PARTY",
     src: "party.jpg",
-    color: "#000000"
+    color: "#000000",
+    link: '/community/outdoor'
   }
 ]
 

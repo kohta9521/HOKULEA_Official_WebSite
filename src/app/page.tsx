@@ -6,6 +6,7 @@ import MainLayout from "@/components/templates/MainLayout";
 import Hero from "@/components/organisms/Hero";
 import About from "@/components/organisms/About";
 import HoverTile from "@/components/organisms/HoverTile";
+import Service from "@/components/organisms/Service";
 
 // components import
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <About />
         <HoverTile />
+        <Service />
       </MainLayout>
     </div>
   );

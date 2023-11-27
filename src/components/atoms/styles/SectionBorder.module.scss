@@ -1,0 +1,16 @@
+.borderContent {
+    width: 100%;
+    height: 1px;
+    color: white;
+}
+
+// props
+.white {
+    background-color: var(--white-main);
+}
+.black {
+    background-color: var(--black-main);
+}
+.gray {
+    background-color: var(--gray-main);
+}

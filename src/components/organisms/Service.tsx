@@ -24,9 +24,9 @@ const Service = () => {
                 />
                 <div className={styles.mainTextBox}>
                     <p className={styles.text}>
-                        <span className={styles.accentText}>・いい技術をもっているのにそれをどう魅せていいかわからない</span><br />
-                        <span className={styles.accentText}>・アイデアがあるがそれを実現できない</span><br />
-                        <span className={styles.accentText}>・感動を与えたい</span><br />
+                        <span className={styles.accentText}>いい技術をもっているのにそれをどう魅せていいかわからない</span><br />
+                        <span className={styles.accentText}>アイデアがあるがそれを実現できない</span><br />
+                        <span className={styles.accentText}>感動を与えたい</span><br />
                         <br />
                         クリエイティブでエナジーある若者とタイアップしてみませんか。<br />
                         HOKULEAではクリエイティブに富んだメンバーが数多く在籍しています。<br />

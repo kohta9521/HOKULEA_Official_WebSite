@@ -1,0 +1,90 @@
+.vision {
+    width: 100%;
+    padding: 200px 0;
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+    .container {
+        width: 80%;
+        max-width:2200px;
+        margin: 0 auto;
+        // TODO: titleのcolor propsを後々追加する
+        h1 {
+            color: black;
+        }
+        .flexBox {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0px;
+            .leftBox {
+                width: 70%;
+                .text {
+                    text-align: left;
+                    font-family: Helvetica Neue;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 35px;
+                    margin-bottom: 100px;
+                    color: var(--black-main);
+                }
+            }
+            .rightBox {
+                width: 10%;
+            }
+        }
+        .imageBox {
+            width: 100%;
+            .image {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .vision {
+        width: 100%;
+        padding: 200px 0;
+        box-sizing: border-box;
+        background-color: #D9D9D9;
+        .container {
+            width: 90%;
+            max-width:2200px;
+            margin: 0 auto;
+            // TODO: titleのcolor propsを後々追加する
+            h1 {
+                color: black;
+            }
+            .flexBox {
+                width: 100%;
+                display: block;
+                .leftBox {
+                    width: 100%;
+                    margin-bottom: -20px;
+                    .text {
+                        text-align: left;
+                        font-family: Helvetica Neue;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 35px;
+                        margin-bottom: 100px;
+                        color: var(--black-main);
+                    }
+                }
+                .rightBox {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+            .imageBox {
+                height: 100%;
+                .image {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

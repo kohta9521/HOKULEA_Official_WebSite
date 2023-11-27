@@ -7,6 +7,8 @@ import Hero from "@/components/organisms/Hero";
 import About from "@/components/organisms/About";
 import HoverTile from "@/components/organisms/HoverTile";
 import Service from "@/components/organisms/Service";
+import Vision from "@/components/organisms/Vision";
+import Footer from "@/components/organisms/Footer";
 
 // components import
 
@@ -18,6 +20,8 @@ export default function Home() {
         <About />
         <HoverTile />
         <Service />
+        <Vision />
+        <Footer />
       </MainLayout>
     </div>
   );

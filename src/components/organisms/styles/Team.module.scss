@@ -1,0 +1,15 @@
+.team {
+    width: 100%;
+    // TODO: 後で消す
+    height: 1800px;
+    padding: 200px 0;
+    box-sizing: border-box;
+    .container {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        h1 {
+            color: var(--white-main);
+        }
+    }
+}

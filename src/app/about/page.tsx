@@ -7,6 +7,7 @@ import styles from "./About.module.scss";
 import SubPageHeroLayout from "@/components/templates/SubPageHeroLayout";
 import ScrollText from "@/components/atoms/ScrollText";
 import Header from "@/components/organisms/Header";
+import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
 
 const About = () => {
   return (
@@ -38,6 +39,12 @@ const About = () => {
         image={"/images/party.jpg"}
       />
       <ScrollText />
+      {/* main content */}
+      <SubPageSecTitle
+        id={1}
+        subTitle={'TRUST, EXPERTISE, COLLABORATION AND COMMITMENT'}
+        mainTitle="The people are key"
+      />
     </div>
   );
 };

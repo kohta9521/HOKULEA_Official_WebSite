@@ -2,10 +2,10 @@
     width: 100%;
     height: 900px;
     padding: 100px 0px;
-    // TODO: 後で消す
-    color: white;
+    color: var(--white-main);
     .container {
         width: 80%;
+        max-width: 1300px;
         height: 100%;
         margin: 0 auto;
     }

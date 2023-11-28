@@ -11,7 +11,20 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                footer area
+                <div className={styles.topBox}>
+
+                </div>
+                <div className={styles.centerBox}>
+                    <div className={styles.leftBox}>
+
+                    </div>
+                    <div className={styles.rightBox}>
+
+                    </div>
+                </div>
+                <div className={styles.bottomBox}>
+
+                </div>
             </div>
         </div>
     )

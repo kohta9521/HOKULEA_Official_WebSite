@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Link from 'next/link'
 
 // scss import
 import styles from './styles/SubPageHeroLayout.module.scss'
-import Link from 'next/link'
+
+// react icons import
+import { RxSlash } from "react-icons/rx";
+
 
 // array type
 type linkLevel = {
@@ -36,7 +39,8 @@ const SubPageHeroLayout = ({
                         linklevel.map((link: linkLevel) => {
                             return (
                                 <li key={link.id}>
-                                    <Link href={link.link}>
+                                    <RxSlash className={styles.icons} />
+                                    <Link className={styles.text} href={link.link}>
                                         {link.text}
                                     </Link>
                                 </li>

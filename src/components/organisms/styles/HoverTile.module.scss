@@ -10,3 +10,10 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .hoverTile {
+        padding: 0px 0px;
+        height: 600px;
+    }
+}

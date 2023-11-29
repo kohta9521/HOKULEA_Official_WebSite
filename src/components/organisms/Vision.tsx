@@ -3,11 +3,10 @@ import React from 'react'
 
 // scss import
 import styles from './styles/Vision.module.scss'
-import SecTitle from '../atoms/SecTitle'
-import ReadMoreButton from '../atoms/ReadMoreButton'
 
 // components import
-
+import SecTitle from '../atoms/SecTitle'
+import ReadMoreButton from '../atoms/ReadMoreButton'
 
 const Vision = () => {
     return (

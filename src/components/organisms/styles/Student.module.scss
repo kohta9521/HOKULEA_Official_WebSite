@@ -1,11 +1,11 @@
 .student {
     width: 100%;
-    // TODO: 後で消す
     height: 1000px;
     padding: 200px 0;
     box-sizing: border-box;
     .container {
         width: 80%;
+        max-width: 1300px;
         height: 100%;
         margin: 0 auto;
         h1 {

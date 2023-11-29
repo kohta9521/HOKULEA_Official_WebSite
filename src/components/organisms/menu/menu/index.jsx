@@ -74,8 +74,8 @@ export default function header({ closeMenu }) {
 
       <div className={styles.body}>
         <div className={styles.leftLists}>
-          {menu.map((el, index) => {
-            return <Link data={el} index={index} key={index} />;
+          {menu.map((el, index, link) => {
+            return <Link data={el} link={link} index={index} key={index} />;
           })}
         </div>
         {/* <div className={styles.rightLists}>

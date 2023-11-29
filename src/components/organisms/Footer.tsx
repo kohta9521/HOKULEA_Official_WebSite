@@ -42,7 +42,7 @@ const Footer = () => {
                                     <p className={styles.listText}>
                                         About
                                     </p>
-                                    <FaExternalLinkAlt />
+                                    {/* <FaExternalLinkAlt className={styles.linkIcon} /> */}
                                 </Link>
                             </li>
                             <li>
@@ -50,7 +50,7 @@ const Footer = () => {
                                     <p className={styles.listText}>
                                         Services
                                     </p>
-                                    <FaExternalLinkAlt />
+                                    {/* <FaExternalLinkAlt className={styles.linkIcon} /> */}
                                 </Link>
                             </li>
                             <li>
@@ -58,7 +58,7 @@ const Footer = () => {
                                     <p className={styles.listText}>
                                         Vision
                                     </p>
-                                    <FaExternalLinkAlt />
+                                    {/* <FaExternalLinkAlt className={styles.linkIcon} /> */}
                                 </Link>
                             </li>
                             <li>
@@ -66,7 +66,7 @@ const Footer = () => {
                                     <p className={styles.listText}>
                                         Student
                                     </p>
-                                    <FaExternalLinkAlt />
+                                    {/* <FaExternalLinkAlt className={styles.linkIcon} /> */}
                                 </Link>
                             </li>
                             <li>
@@ -74,7 +74,7 @@ const Footer = () => {
                                     <p className={styles.listText}>
                                         Team
                                     </p>
-                                    <FaExternalLinkAlt />
+                                    {/* <FaExternalLinkAlt className={styles.linkIcon} /> */}
                                 </Link>
                             </li>
                             <li>
@@ -82,7 +82,7 @@ const Footer = () => {
                                     <p className={styles.listText}>
                                         Contact
                                     </p>
-                                    <FaExternalLinkAlt />
+                                    {/* <FaExternalLinkAlt className={styles.linkIcon} /> */}
                                 </Link>
                             </li>
                         </ul>
@@ -95,17 +95,17 @@ const Footer = () => {
                             <ul>
                                 <li>
                                     <Link className={styles.snsLists} href={"/"}>
-                                        <FaInstagram />
+                                        <FaInstagram className={styles.snsIcon} />
                                     </Link>
                                 </li>
                                 <li>
                                     <Link className={styles.snsLists} href={"/"}>
-                                        <FaTwitter />
+                                        <FaTwitter className={styles.snsIcon} />
                                     </Link>
                                 </li>
                                 <li>
                                     <Link className={styles.snsLists} href={"/"}>
-                                        <FaYoutube />
+                                        <FaYoutube className={styles.snsIcon} />
                                     </Link>
                                 </li>
                             </ul>
@@ -117,7 +117,7 @@ const Footer = () => {
                         </p>
                         <Link className={styles.nextButton} href={"/about"}>
                             ABOUT
-                            <IoIosArrowRoundForward />
+                            <IoIosArrowRoundForward className={styles.arrowIcon} />
                         </Link>
                     </div>
                 </div>

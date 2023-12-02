@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Link from 'next/link'
 
 // scss import
 import styles from './styles/Footer.module.scss'
-import Link from 'next/link'
+
 
 // components import
 

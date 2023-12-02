@@ -1,0 +1,22 @@
+.body {
+    width: 100%;
+    padding: 200px 0;
+    box-sizing: border-box;
+    .container {
+        width: 80%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .body {
+        width: 100%;
+        padding: 100px 0;
+        box-sizing: border-box;
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}

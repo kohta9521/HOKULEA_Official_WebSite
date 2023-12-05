@@ -11,6 +11,7 @@ import ScrollText from "@/components/atoms/ScrollText";
 import SubPageBody from "@/components/templates/SubPageBody";
 import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
 import SubPageMainText from "@/components/molecules/SubPageMainText";
+import PersonalForm from "@/components/organisms/PersonalForm";
 
 const Contact = () => {
   // formの切り替え
@@ -71,7 +72,7 @@ const Contact = () => {
           <div className={styles.formBox}>
           {form === 'personal' ? (
               <div className={styles.box}>
-                <h1 style={{color: 'white'}}>個人のお客様用お問い合わせフォーム</h1>
+                <PersonalForm />
               </div>
           ) : (
               <div className={styles.box}>

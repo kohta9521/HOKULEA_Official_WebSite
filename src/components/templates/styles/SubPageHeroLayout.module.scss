@@ -5,8 +5,6 @@
     padding: 20px 100px;
     box-sizing: border-box;
     margin-top: 100px;
-    // TODO: 後で消す
-    // border: 1px solid white;
     .linkBox {
         width: 100%;
         height: 50px;
@@ -76,12 +74,10 @@
     .herolayout {
         position: relative;
         width: 100%;
-        height: 2000px;
-        padding: 20px 20px;
+        height: 810px;
+        padding: 0px 20px;
+        margin-top: 30px;
         box-sizing: border-box;
-        margin-top: 100px;
-        // TODO: 後で消す
-        border: 1px solid white;
         .linkBox {
             width: 100%;
             height: 50px;
@@ -116,9 +112,9 @@
         }
         .titleBox {
             width: 100%;
-            margin-top: 10px;
+            margin-top: 20px;
             font-family: Helvetica Neue;
-            font-size: 30px;
+            font-size: 29px;
             font-style: normal;
             font-weight: 700;
             line-height: 1;
@@ -128,7 +124,7 @@
             position: absolute;
             width: 250px;
             height: 100px;
-            margin-top: 50px;
+            margin-top: 30px;
             font-family: Helvetica Neue;
             font-size: 13px;
             font-style: normal;
@@ -137,13 +133,11 @@
             color: var(--white-main);
         }
         .imgBox {
-            display: none;
             margin-top: 150px;
-            width: 100px;
-                height: 100px;
+            width: 100%;
+            height: 300px;
             .image {
-                width: 100px;
-                height: 100px;
+                width: 100%;
             }
         }
     }

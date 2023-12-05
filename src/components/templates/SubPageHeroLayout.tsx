@@ -55,7 +55,7 @@ const SubPageHeroLayout = ({
                     {desc}
                 </p>
                 <div className={styles.imgBox}>
-                    <img src={image} alt="subPageHeroImage" />
+                    <img className={styles.image} src={image} alt="subPageHeroImage" />
                 </div>
             </div>
         </div>

@@ -1,8 +1,8 @@
 .herolayout {
     position: relative;
     width: 100%;
-    height: 1100px;
-    padding: 20px 100px;
+    min-height: 1000px;
+    padding: 0px 100px;
     box-sizing: border-box;
     margin-top: 100px;
     .linkBox {
@@ -74,9 +74,9 @@
     .herolayout {
         position: relative;
         width: 100%;
-        height: 810px;
+        // height: 810px;
         padding: 0px 20px;
-        margin-top: 30px;
+        margin-top: 40px;
         box-sizing: border-box;
         .linkBox {
             width: 100%;

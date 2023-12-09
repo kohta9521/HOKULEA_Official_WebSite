@@ -3,6 +3,8 @@ import React from 'react';
 
 // scss import
 import styles from './styles/SubPageBody.module.scss';
+
+// components import
 import Contact from '../organisms/Contact';
 import Footer from '../organisms/Footer';
 

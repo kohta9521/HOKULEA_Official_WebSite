@@ -12,7 +12,6 @@ const menu = [
     title: "HOME",
     subTitle: "ホーム",
     link: "/",
-    // description: "To See Everything",
   },
   {
     title: "ABOUT",
@@ -78,9 +77,6 @@ export default function header({ closeMenu }) {
             return <Link data={el} link={link} index={index} key={index} />;
           })}
         </div>
-        {/* <div className={styles.rightLists}>
-            <h1>fuck</h1>
-          </div> */}
       </div>
     </div>
   );

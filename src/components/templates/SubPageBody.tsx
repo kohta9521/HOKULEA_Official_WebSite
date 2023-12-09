@@ -3,6 +3,8 @@ import React from 'react';
 
 // scss import
 import styles from './styles/SubPageBody.module.scss';
+import Contact from '../organisms/Contact';
+import Footer from '../organisms/Footer';
 
 // props
 export type SubPageBodyProps = {
@@ -16,11 +18,17 @@ const SubPageBody = ({
     children,
 }: SubPageBodyProps ) => {
     return (
-        <div className={styles.body} key={id}>
-            <div className={styles.container}>
-                {children}
+        <>
+            <div className={styles.body} key={id}>
+                <div className={styles.container}>
+                    {children}
+                </div>
             </div>
-        </div>
+            {/* subPageContact Componentsを挿入する */}
+            {/* <Contact /> */}
+            <Footer />
+        </>
+
     )
 }
 

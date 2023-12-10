@@ -16,7 +16,7 @@ const menu = [
   {
     title: "ABOUT",
     subTitle: "Hokuleaについて",
-    link: "/about",
+    link: "https://www.hokulea-community.com/about",
   },
   {
     title: "COMMUNITY",

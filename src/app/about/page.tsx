@@ -50,8 +50,8 @@ const About = () => {
           mainTitle="The people are key"
         />
         <SubPageMainText id={1} text={'2020年 コロナ禍で交流が無くなってしまったZ世代に、集える場、楽しめる場を提供するためサーフコミュニティ HOKULEA設立。'}  />
-        <SubPageMainText id={1} text={'2020年  会員メンバーは3年連続100人以上在籍。在籍者は国内外の大学生や専門学生と様々。活動はサーフィンから始まり海のアクティビティや他アウトドア、また保全活動やイベントを行なっている。 HOKULEA設立。'}  />
-        <SubPageMainText id={1} text={'企業やNPO団体とも積極的に協業。 2023年に 株式会社HOKULEA。Z世代のクリエイティブとエナジーを活かした事業、イベントを行う。'}  />
+        <SubPageMainText id={2} text={'2020年  会員メンバーは3年連続100人以上在籍。在籍者は国内外の大学生や専門学生と様々。活動はサーフィンから始まり海のアクティビティや他アウトドア、また保全活動やイベントを行なっている。 HOKULEA設立。'}  />
+        <SubPageMainText id={3} text={'企業やNPO団体とも積極的に協業。 2023年に 株式会社HOKULEA。Z世代のクリエイティブとエナジーを活かした事業、イベントを行う。'}  />
 
         <SpaceBox id={1} level="medium" />
 
@@ -61,6 +61,12 @@ const About = () => {
           subTitle={'THE AXIS OF OUR COMPANY AND COMMUNITY'}
           mainTitle="Corporate philosophy"
         />
+        <SubPageMainText id={4} text={'「わがままであり続けろ」 「俺らが時代、俺らが未来を創る」'} />
+        <SubPageMainText id={4} text={'分けの分からないルール？そんなもの捨てちまえ。やらない善よりやる偽善。'} />
+        <SubPageMainText id={4} text={'大人なら大人しくしてろ？いくつになってもステイヤング。'} />
+        <SubPageMainText id={4} text={'この世の中、色んなルール、しきたり、圧力あるがもっとシンプルに楽しいことをやらせろ作らせろ。'} />
+        <SubPageMainText id={4} text={'柔軟な発想と掛け算であらゆるコトを楽しく大きくカッコよく創りあげます。'} />
+        <SubPageMainText id={4} text={'それが日本一coolな若者集団HOKULEA。'} />
       </SubPageBody>
     </div>
   );

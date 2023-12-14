@@ -9,8 +9,20 @@
     height: 100px;
 }
 .medium {
-    height: 200px;
+    height: 150px;
 }
 .large {
     height: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+    .small {
+        height: 50px;
+    }
+    .medium {
+        height: 70px;
+    }
+    .large {
+        height: 150px;
+    }
 }

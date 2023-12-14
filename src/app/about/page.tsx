@@ -10,6 +10,7 @@ import Header from "@/components/organisms/Header";
 import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
 import SubPageBody from "@/components/templates/SubPageBody";
 import SubPageMainText from "@/components/molecules/SubPageMainText";
+import SpaceBox from "@/components/atoms/SpaceBox";
 
 const About = () => {
   return (
@@ -52,6 +53,14 @@ const About = () => {
         <SubPageMainText id={1} text={'2020年  会員メンバーは3年連続100人以上在籍。在籍者は国内外の大学生や専門学生と様々。活動はサーフィンから始まり海のアクティビティや他アウトドア、また保全活動やイベントを行なっている。 HOKULEA設立。'}  />
         <SubPageMainText id={1} text={'企業やNPO団体とも積極的に協業。 2023年に 株式会社HOKULEA。Z世代のクリエイティブとエナジーを活かした事業、イベントを行う。'}  />
 
+        <SpaceBox id={1} level="medium" />
+
+        {/* 企業理念 */}
+        <SubPageSecTitle
+          id={2}
+          subTitle={'THE AXIS OF OUR COMPANY AND COMMUNITY'}
+          mainTitle="Corporate philosophy"
+        />
       </SubPageBody>
     </div>
   );

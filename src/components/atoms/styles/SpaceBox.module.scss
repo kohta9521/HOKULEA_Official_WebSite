@@ -1,0 +1,28 @@
+// default box styling
+.box {
+    display: block;
+    width: 100%;
+}
+
+// props styling
+.small {
+    height: 100px;
+}
+.medium {
+    height: 150px;
+}
+.large {
+    height: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+    .small {
+        height: 50px;
+    }
+    .medium {
+        height: 70px;
+    }
+    .large {
+        height: 150px;
+    }
+}

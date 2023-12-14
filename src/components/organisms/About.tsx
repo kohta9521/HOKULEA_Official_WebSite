@@ -30,6 +30,7 @@ const About = () => {
             </p>
             <div className={styles.buttonBox}>
               <ReadMoreButton id={1} link="/about" text="READ MORE" textColor="white" />
+              <a href="/about">aboutpage</a>
             </div>
           </div>
         </div>

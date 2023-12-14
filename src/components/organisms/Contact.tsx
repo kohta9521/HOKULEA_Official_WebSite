@@ -24,14 +24,6 @@ const Contact = () => {
                         個人の方用と法人の方用のお問い合わせページがありますので、お間違いのないようにお願いします。<br />
                         また、各団体のSNS、メールアドレスなども記載しておりますのでそちらからもお問い合わせいただけます。<br />
                     </p>
-                    <div className={styles.buttonBox}>
-                        <Link className={styles.button} href="/contact">
-                            <p className={styles.buttonText}>個人の方</p>
-                        </Link>
-                        <Link className={styles.button} href="/contact">
-                            <p className={styles.buttonText}>法人の方</p>
-                        </Link>
-                    </div>
                     <ReadMoreButton id={5} link="/contact" text="VISIT PAGE" textColor="white" />
             </div>
         </div>

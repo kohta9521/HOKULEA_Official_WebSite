@@ -11,8 +11,7 @@ const HeroTitle = () => {
       <div className={styles.flexBox}>
         <h1 className={styles.centerTitle}>Energy</h1>
         <p className={styles.textBoxText}>
-          A HUB FOR THE DYNAMIC CREATIVITY OF YOUTH, FOSTERING A UNIQUE
-          COMMUNITY AND CURATING DIVERSE EVENTS.BASED IN TOKYO.
+          A HUB FOSTERING THE DYNAMIC AND UNIQUE CREATIVITY OF YOUTH, OFFERING DIVERSE EVENTS BASED IN TOKYO
         </p>
       </div>
       <h1 className={styles.title}>Synergy</h1>

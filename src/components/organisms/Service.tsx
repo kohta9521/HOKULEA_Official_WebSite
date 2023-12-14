@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 
 // scss import
@@ -33,6 +34,14 @@ const Service = () => {
                         貴社のプロダクトやイベントに合わせ、HOKULEAのチームがサポートに入りクリエイティブに仕上げていきます。<br />
                     </p>
                     <ReadMoreButton id={1} link="/services" text="READ MORE" textColor="white" />
+                </div>
+                {/* ここから各種サービスの絶対位置の記述 */}
+                <div className={`${styles.card} ${styles.card1}`}>
+                    <p className={styles.cardTitle}>
+                        EVENT PRODUCE
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
                 </div>
             </div>
         </div>

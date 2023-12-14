@@ -16,7 +16,9 @@ const SectionBorder = ({
     color = 'white',
 }: SectionBorderProps ) => {
     return (
-        <div className={`${styles.borderContent}${styles[color]}`} key={id}>
+        <div className={`${styles.borderContent}`} key={id}>
+            <span className={`${styles[color]}`}>
+            </span>
         </div>
     )
 }

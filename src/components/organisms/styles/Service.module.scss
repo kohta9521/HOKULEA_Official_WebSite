@@ -35,21 +35,30 @@
             .cardTitle {
                 top: 10;
                 color: var(--white-main);
-                font-size: 35px;
+                font-size: 40px;
                 font-weight: bold;
-                margin-bottom: 5px;
+                margin-bottom: 10px;
             }
             .cardImage {
                 width: 100%;
             }
             .cardVisitButton {
-
+                display: block;
+                border-radius: 3;
+                width: 180px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 10px;
+                background-color: orange;
+                color: var(--white-main);
+                margin-top: 20px;
             }
         }
         // 各種カードの個別の絶対位置の記述
         .card1 {
             position: absolute;
-            top: 0;
+            right: 0;
+            top: 500px;
         }
     }
 }

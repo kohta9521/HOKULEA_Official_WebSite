@@ -43,6 +43,13 @@ const Service = () => {
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
                 </div>
+                <div className={`${styles.card} ${styles.card2}`}>
+                    <p className={styles.cardTitle}>
+                        PRODUCT / SERVICE PRODUCE
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                </div>
             </div>
         </div>
     )

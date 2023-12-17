@@ -50,6 +50,28 @@ const Service = () => {
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
                 </div>
+                <div className={`${styles.card} ${styles.card3}`}>
+                    <p className={styles.cardTitle}>
+                        CONSULTING
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                </div>
+                <div className={`${styles.card} ${styles.card4}`}>
+                    <p className={styles.cardTitle}>
+                        CONSULTING
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                </div>
+                <div className={`${styles.card} ${styles.card5}`}>
+                    <p className={styles.cardTitle}>
+                        SNS MARKETING
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                </div>
+                {/* card components 終了（絶対位置はこの場外である） */}
             </div>
         </div>
     )

@@ -3,8 +3,11 @@
     padding: 200px 0;
     box-sizing: border-box;
     .container {
+        // 各種サービスの絶対位置の原点部分
+        position: relative;
         width: 80%;
         max-width: 1300px;
+        min-height: 2000px;
         margin: 0 auto;
         border-top: 0.1px solid rgb(150, 150, 150);
         .mainTextBox {
@@ -27,18 +30,51 @@
         }
         // ここから各種サービスの絶対位置の記述
         .card {
+            width: 500px;
+            padding: 10px 0px;
             .cardTitle {
-                
+                top: 10;
+                color: var(--white-main);
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 10px;
             }
             .cardImage {
-
+                width: 100%;
             }
             .cardVisitButton {
-
+                display: block;
+                border-radius: 3;
+                width: 180px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 10px;
+                background-color: orange;
+                color: var(--white-main);
+                margin-top: 20px;
             }
         }
         // 各種カードの個別の絶対位置の記述
         .card1 {
+            position: absolute;
+            right: 0;
+            top: 500px;
+        }
+        .card2 {
+            position: absolute;
+            margin-top: 100px;
+        }
+        .card3 {
+            position: absolute;
+            right: 0;
+            margin-top:400px;
+        }
+        .card4 {
+            position: absolute;
+            margin-top:800px;
+        }
+        .card5 {
+            position: absolute;
             
         }
     }

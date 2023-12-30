@@ -21,7 +21,7 @@ export default function Home() {
       <MainLayout id={1}>
         <Hero />
         <About />
-        <HoverTile />
+        {/* <HoverTile /> */}
         <Service />
         <Vision />
         <Student />

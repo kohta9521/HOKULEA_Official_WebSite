@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // scss import
 import styles from "./styles/About.module.scss";
@@ -6,6 +7,7 @@ import styles from "./styles/About.module.scss";
 // components import
 import SecTitle from "../atoms/SecTitle";
 import ReadMoreButton from "../atoms/ReadMoreButton";
+
 
 const About = () => {
   return (
@@ -19,7 +21,7 @@ const About = () => {
         />
         <div className={styles.flexBox}>
           <div className={styles.leftBox}>
-            <img className={styles.image} src="/images/about.jpg" alt="aboutImage" />
+            <Image className={styles.image} width={1000} height={500} src="/images/about.jpg" alt="aboutImage" />
           </div>
           <div className={styles.rightBox}>
             <h1 className={styles.title}>Community of Generation Z</h1>

@@ -16,7 +16,7 @@ const menu = [
   {
     title: "ABOUT",
     subTitle: "Hokuleaについて",
-    link: "about",
+    link: "/about",
   },
   {
     title: "COMMUNITY",

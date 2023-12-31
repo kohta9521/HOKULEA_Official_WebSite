@@ -1,0 +1,5 @@
+
+> hokulea@0.1.0 build-storybook
+> storybook build --output-dir /var/folders/f0/fh3fqsws4bs_mtr6qjz0pkm00000gn/T/chromatic--66582-9IvJm6XQeXEO
+
+sh: storybook: command not found

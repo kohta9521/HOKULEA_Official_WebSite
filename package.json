@@ -9,7 +9,8 @@
     "export": "next export",
     "lint": "next lint",
     "format": "npx prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@types/node": "20.6.2",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
     "@types/jest": "^29.5.5",
+    "chromatic": "^10.2.0",
     "commitizen": "^4.3.0",
     "cz-customizable": "^7.0.0",
     "eslint-config-prettier": "^9.0.0",

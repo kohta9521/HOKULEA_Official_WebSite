@@ -44,32 +44,57 @@ const About = () => {
       <ScrollText />
       {/* main content */}
       <SubPageBody id={1} >
+        {/* HOKULEAとは */}
         <SubPageSecTitle
           id={1}
           subTitle={'TRUST, EXPERTISE, COLLABORATION AND COMMITMENT'}
           mainTitle="The people are key"
         />
-        <SubPageMainText id={1} text={'2020年 コロナ禍で交流が無くなってしまったZ世代に、集える場、楽しめる場を提供するためサーフコミュニティ HOKULEA設立。'}  />
-        <SubPageMainText id={2} text={'2020年  会員メンバーは3年連続100人以上在籍。在籍者は国内外の大学生や専門学生と様々。活動はサーフィンから始まり海のアクティビティや他アウトドア、また保全活動やイベントを行なっている。 HOKULEA設立。'}  />
-        <SubPageMainText id={3} text={'企業やNPO団体とも積極的に協業。 2023年に 株式会社HOKULEA。Z世代のクリエイティブとエナジーを活かした事業、イベントを行う。'}  />
+        <SubPageMainText id={1} text={'今までにない Z世代コミュニティHOKULEA'}  />
+        <SubPageMainText id={2} text={'ここは若者のクリエイティブとエナジーが行き交う場。'}  />
+        <SubPageMainText id={3} text={'ゴミ拾いにクリエイティブを掛け合わせた「Clean party」'}  />
+        <SubPageMainText id={4} text={'エナジーが溢れ出た結果、事前登録招待制で700人以上参加した「Halloween Party」気鋭があり、社交的で自然を愛するcoolな若者が所属しています。'}  />
+        <SubPageMainText id={5} text={'そんな限りない可能性と様々なバックグラウンドを持つ若者と共に創りあげませんか？'}  />
+        <SubPageMainText id={6} text={'シナジーを感じるジャンルを超えたイベントやプロダクト/サービス。'}  />
+        <SubPageMainText id={7} text={'センスある若者の目線を元に「魅せる」と「楽しむ」を意識した面白いコトをしたいならHOKULEA。'}  />
 
         <SpaceBox id={1} level="medium" />
 
-        {/* 企業理念 */}
+        {/* コンセプト */}
         <SubPageSecTitle
           id={2}
           subTitle={'THE AXIS OF OUR COMPANY AND COMMUNITY'}
           mainTitle="Corporate philosophy"
         />
-        <SubPageMainText id={4} text={'「わがままであり続けろ」 「俺らが時代、俺らが未来を創る」'} />
-        <SubPageMainText id={4} text={'分けの分からないルール？そんなもの捨てちまえ。やらない善よりやる偽善。'} />
-        <SubPageMainText id={4} text={'大人なら大人しくしてろ？いくつになってもステイヤング。'} />
-        <SubPageMainText id={4} text={'この世の中、色んなルール、しきたり、圧力あるがもっとシンプルに楽しいことをやらせろ作らせろ。'} />
-        <SubPageMainText id={4} text={'柔軟な発想と掛け算であらゆるコトを楽しく大きくカッコよく創りあげます。'} />
-        <SubPageMainText id={4} text={'それが日本一coolな若者集団HOKULEA。'} />
+        <SubPageMainText id={8} text={'「それ、俺らが波及させる」'} />
+        <SubPageMainText id={9} text={'とってもイイことも魅せ方を間違えるとうまく伝えることができません。'} />
+        <SubPageMainText id={9} text={'イイこともクリエイティブな視点と技術がないと人々に刺さることは少ないでしょう。'} />
+        <SubPageMainText id={9} text={'イイことも創る人がエネルギッシュでないと熱量を感じられず伝播することは難しいと思います。'} />
+        <SubPageMainText id={9} text={'HOKULEAには今の時代に生きる、クリエイティブでエナジーある若者のみ多く集まっています。'} />
+        <SubPageMainText id={9} text={'トレンド感があり気鋭でcoolな若者たちが社会に影響を与えていきます。'} />
+
+        <SpaceBox id={1} level="medium" />
+
+        {/* コンセプト */}
+        <SubPageSecTitle
+          id={3}
+          subTitle={'THE AXIS OF OUR COMPANY AND COMMUNITY'}
+          mainTitle="Corporate philosophy"
+        />
+        <SubPageMainText id={9} text={'「社会にイイこと、めっちゃ楽しく」'} />
+        <SubPageMainText id={9} text={'社会 とはsocial。イイこと とはgoodなこと。'} />
+        <SubPageMainText id={9} text={'socialなものといえばコミュニティがその一つでしょう。HOKULEAは若者のコミュニティがルーツです。また今でもコミュニティによって成り立っています。'} />
+        <SubPageMainText id={9} text={' HOKULEAコミュニティにgoodなことをめっちゃ楽しくやっています。'} />
+        <SubPageMainText id={9} text={'またsocialもコミュニティも人があってのもの。'} />
+        <SubPageMainText id={9} text={' 一人一人がgoodだと思うことを楽しくやっていきます。'} />
+        <SubPageMainText id={9} text={'そして社会とは 世の中、世界。'} />
+        <SubPageMainText id={9} text={' 社会にgoodな活動もクリエイティブでエナジーある若者のスパイスを入れ、主催者側も参加側もとっても楽しいことを行なっていきます。'} />
+        <SubPageMainText id={9} text={'そう、'} />
+        <SubPageMainText id={9} text={'「社会にイイこと、めっちゃ楽しく」のミッションは結果 一人一人に、コミュニティに、さらに社会全体にもHOKULEA(=喜びの星）であるのです。'} />
       </SubPageBody>
     </div>
   );
 };
 
 export default About;
+

@@ -1,7 +1,7 @@
 .herolayout {
     position: relative;
     width: 100%;
-    min-height: 1000px;
+    min-height: 1400px;
     padding: 0px 100px;
     box-sizing: border-box;
     margin-top: 100px;
@@ -38,9 +38,9 @@
     }
     .titleBox {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 30px;
         font-family: Helvetica Neue;
-        font-size: 35px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: 1;
@@ -62,9 +62,10 @@
         position: absolute;
         left: 0;
         margin-top: 150px;
-        width: 700px;
-        height: 700px;
+        width: 1700px;
+        height: 1000px;
         .image {
+            width: 100%;
             height: 100%;
         }
     }
@@ -74,7 +75,7 @@
     .herolayout {
         position: relative;
         width: 100%;
-        // height: 810px;
+        min-height: 810px;
         padding: 0px 20px;
         margin-top: 40px;
         box-sizing: border-box;
@@ -138,6 +139,7 @@
             height: 300px;
             .image {
                 width: 100%;
+                height: 100%;
             }
         }
     }

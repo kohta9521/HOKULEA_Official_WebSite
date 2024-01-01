@@ -1,10 +1,8 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 // scss
 import styles from './styles/SubPageInsertImage.module.scss'
-import Image from 'next/image'
-
 
 // props
 export type SubPageInsertImageProps = {
@@ -20,12 +18,12 @@ const SubPageInsertImage = ({
     alt
 }: SubPageInsertImageProps) => {
     return (
-        <div>
+        <div key={id} className={styles.imageBox}>
             <Image
                 className={styles.image}
                 src={image}
                 width={500}
-                height={300}
+                height={500}
                 alt={alt}
             />
         </div>

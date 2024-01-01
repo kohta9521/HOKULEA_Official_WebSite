@@ -47,8 +47,8 @@ const About = () => {
         {/* HOKULEAとは */}
         <SubPageSecTitle
           id={1}
-          subTitle={'TRUST, EXPERTISE, COLLABORATION AND COMMITMENT'}
-          mainTitle="The people are key"
+          subTitle={'About our wonderful organization HOKULEA'}
+          mainTitle="What is HOKULEA?"
         />
         <SubPageMainText id={1} text={'今までにない Z世代コミュニティHOKULEA'}  />
         <SubPageMainText id={2} text={'ここは若者のクリエイティブとエナジーが行き交う場。'}  />
@@ -60,11 +60,11 @@ const About = () => {
 
         <SpaceBox id={1} level="medium" />
 
-        {/* コンセプト */}
+        {/* COncept */}
         <SubPageSecTitle
           id={2}
-          subTitle={'THE AXIS OF OUR COMPANY AND COMMUNITY'}
-          mainTitle="Corporate philosophy"
+          subTitle={'What we are aiming for and what we are going to do in the future'}
+          mainTitle="Our Concept"
         />
         <SubPageMainText id={8} text={'「それ、俺らが波及させる」'} />
         <SubPageMainText id={9} text={'とってもイイことも魅せ方を間違えるとうまく伝えることができません。'} />
@@ -75,11 +75,11 @@ const About = () => {
 
         <SpaceBox id={1} level="medium" />
 
-        {/* コンセプト */}
+        {/* Mission */}
         <SubPageSecTitle
           id={3}
-          subTitle={'THE AXIS OF OUR COMPANY AND COMMUNITY'}
-          mainTitle="Corporate philosophy"
+          subTitle={'Our mission has to do with society.'}
+          mainTitle="Our Mission"
         />
         <SubPageMainText id={9} text={'「社会にイイこと、めっちゃ楽しく」'} />
         <SubPageMainText id={9} text={'社会 とはsocial。イイこと とはgoodなこと。'} />
@@ -91,6 +91,28 @@ const About = () => {
         <SubPageMainText id={9} text={' 社会にgoodな活動もクリエイティブでエナジーある若者のスパイスを入れ、主催者側も参加側もとっても楽しいことを行なっていきます。'} />
         <SubPageMainText id={9} text={'そう、'} />
         <SubPageMainText id={9} text={'「社会にイイこと、めっちゃ楽しく」のミッションは結果 一人一人に、コミュニティに、さらに社会全体にもHOKULEA(=喜びの星）であるのです。'} />
+
+        <SpaceBox id={1} level="medium" />
+
+        {/* Vision */}
+        <SubPageSecTitle
+          id={3}
+          subTitle={'Our mission has to do with society.'}
+          mainTitle="Vision"
+        />
+        <SubPageMainText id={9} text={'「 HOKULEA(=喜びの星)を人々に、社会に 」'} />
+        <SubPageMainText id={9} text={'「社会にイイこと、めっちゃ楽しく」をミッションにしているのは「HOKULEA（=喜びの星）を人々に、社会に」という展望があるから。'} />
+        <SubPageMainText id={9} text={'HOKULEAはコロナ禍で設立されました。この期間で我々は人々が交流できる場がいかに貴重であり、大事なことなのかを知りました。'} />
+        <SubPageMainText id={9} text={'オンラインやリモートで完結できることを知ったのにも関わらず今こうして直接人と対面し楽しんでいるのは、人と交流する場が我々の楽しみであり喜びであるからです。また同時期に地方に暮らし始める人や自然のアクティビティが増えたように自然と対峙する時間がいかに人間の心のゆとりを作り幸せなことなのかも知りました。'} />
+        <SubPageMainText id={9} text={'HOKULEAの中には4つのコミュニティがあります。アウトドア、サーフィン、環境、イベント。'} />
+        <SubPageMainText id={9} text={'これは我々は自然が喜びで人との交流がHOKULEA（=喜び）であるからです。'} />
+        <SubPageMainText id={9} text={'自然が好きだからこそアウトドアアクティビティをする。自然が好きだからこそ自然保全活動も行う。'} />
+        <SubPageMainText id={9} text={'渋谷という街が好きで楽しませてもらっているからこそ、渋谷の街をクリーンアップ。'} />
+        <SubPageMainText id={9} text={'社会活動でもめっちゃ楽しいイベントなら参加者も楽しい。これはHOKULEA（=喜びの星）だ。'} />
+        <SubPageMainText id={9} text={'そしてこの楽しさと活動を伝えるために人々に、社会に魅せていく。'} />
+        <SubPageMainText id={9} text={'参加者や社会が喜ぶようなイベントを行う。それがHOKULEA。'} />
+        <SubPageMainText id={9} text={' そしてそれを人々や社会に波及していく、これがHOKULEA。'} />
+        <SubPageMainText id={9} text={' なぜなら「HOKULEA（＝喜びの星）を人々に、社会に」がViSIONだから。'} />
       </SubPageBody>
     </div>
   );

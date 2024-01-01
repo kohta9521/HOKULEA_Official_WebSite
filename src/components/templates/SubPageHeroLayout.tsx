@@ -6,6 +6,7 @@ import styles from './styles/SubPageHeroLayout.module.scss'
 
 // react icons import
 import { RxSlash } from "react-icons/rx";
+import Image from 'next/image';
 
 
 // array type
@@ -32,7 +33,7 @@ const SubPageHeroLayout = ({
     image
 }: SubPageHeroLayoutProps) => {
     return (
-        <div className={styles.herolayout}>
+        <div className={styles.herolayout} key={id}>
             <div className={styles.linkBox}>
                 <ul>
                     {
@@ -55,7 +56,7 @@ const SubPageHeroLayout = ({
                     {desc}
                 </p>
                 <div className={styles.imgBox}>
-                    <img className={styles.image} src={image} alt="subPageHeroImage" />
+                    <Image className={styles.image} width={1700} height={1000} src={image} alt="subPageHeroImage" />
                 </div>
             </div>
         </div>

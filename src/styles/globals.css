@@ -13,6 +13,11 @@
   --orange-main: #fb4503;
   --orange-sub: #ff7f50;
 
+  --red-main: #ff0000;
+  --yellow-main: #ffff00;
+  --blue-main: #0000ff;
+  --green-main: #00ff00;
+
   /* fonts */
   --main-en: "Apex Mk3-Medium";
   /* @font-face {

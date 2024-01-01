@@ -27,16 +27,16 @@
                     z-index: -1;
                 }
                 .yellow {
-                    color: yellow;
+                    color: var(--yellow-main);
                 }
                 .blue {
-                    color: blue;
+                    color: var(--blue-main);
                 }
                 .green {
-                    color: green;
+                    color: var(--green-main);
                 }
                 .red {
-                    color: red;
+                    color: var(--red-main);
                 }
                 .mainTitle {
                     position: absolute;

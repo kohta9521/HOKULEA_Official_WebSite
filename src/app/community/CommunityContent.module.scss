@@ -1,6 +1,8 @@
 .container {
     width: 100%;
     .community {
+        width: 100%;
+        padding: 60px 0;
         .titleFlexBox {
             display: flex;
             width: 100%;
@@ -23,6 +25,18 @@
                     opacity: 0.8;
                     font-weight: bold;
                     z-index: -1;
+                }
+                .yellow {
+                    color: yellow;
+                }
+                .blue {
+                    color: blue;
+                }
+                .green {
+                    color: green;
+                }
+                .red {
+                    color: red;
                 }
                 .mainTitle {
                     position: absolute;

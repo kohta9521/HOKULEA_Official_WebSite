@@ -2,11 +2,15 @@ import React from "react";
 
 // scss import
 import styles from './Community.module.scss';
+
+// components import
 import Header from "@/components/organisms/Header";
 import SubPageHeroLayout from "@/components/templates/SubPageHeroLayout";
 import ScrollText from "@/components/atoms/ScrollText";
+import SubPageBody from "@/components/templates/SubPageBody";
+import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
+import CommunityContent from "./CommunityContent";
 
-// components import
 
 const Community = () => {
   return (
@@ -38,6 +42,11 @@ const Community = () => {
         image={"/images/party.jpg"}
       />
       <ScrollText />
+      {/* main content */}
+      <SubPageBody id={2}>
+        {/* 同階層のcontent componentに全てを集約 理由としては細かい装飾があるため */}
+        <CommunityContent />
+      </SubPageBody>
     </div>
   );
 };

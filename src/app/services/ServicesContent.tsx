@@ -31,7 +31,7 @@ const ServicesContent = () => {
             {/* 事業概要 */}
             <div className={styles.services}>
                 <div className={styles.flexBox}>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/services/eventproduce"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -43,7 +43,7 @@ const ServicesContent = () => {
                             EVENT PRODUCE
                         </h1>
                     </Link>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/services/productserviceproduce"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -52,12 +52,13 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            PRODUCT<br />
+                            SERVICE PRODUCE
                         </h1>
                     </Link>
                 </div>
                 <div className={styles.flexBox}>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/services/casthumanresources"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -66,10 +67,11 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            CAST・HUMAN<br />
+                            RESOURCES
                         </h1>
                     </Link>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/services/snsmarketing"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -78,21 +80,37 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            SNS MARKETING
+                        </h1>
+                    </Link>
+                </div>
+                <div className={styles.flexBox}>
+                    <Link className={styles.linkBox} href={"/services/consulting"}>
+                        <Image
+                            className={styles.image}
+                            src={"/images/about.jpg"}
+                            alt={"rover"}
+                            width={400}
+                            height={300}
+                        />
+                        <h1 className={styles.serviceTitle}>
+                            CONSULTING
+                        </h1>
+                    </Link>
+                    <Link className={styles.linkBox} href={"/commingsoon"}>
+                        <Image
+                            className={styles.image}
+                            src={"/images/about.jpg"}
+                            alt={"rover"}
+                            width={400}
+                            height={300}
+                        />
+                        <h1 className={styles.serviceTitle}>
+                            COMMING SOON....
                         </h1>
                     </Link>
                 </div>
             </div>
-
-            <SpaceBox id={1} level="medium" />
-
-            <SubPageSecTitle
-                id={6}
-                subTitle={'About our wonderful organization HOKULEA'}
-                mainTitle={"事業概要"}
-            />
-
-
         </div>
     )
 }

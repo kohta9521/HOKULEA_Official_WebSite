@@ -3,6 +3,9 @@ import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+// speed insights
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Hamburger />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );

@@ -8,6 +8,7 @@ import Header from "@/components/organisms/Header";
 import SubPageHeroLayout from "@/components/templates/SubPageHeroLayout";
 import ScrollText from "@/components/atoms/ScrollText";
 import ServicesContent from "./ServicesContent";
+import SubPageBody from "@/components/templates/SubPageBody";
 
 
 const Services = () => {
@@ -40,7 +41,9 @@ const Services = () => {
       />
       <ScrollText />
       {/* main content */}
-      <ServicesContent />
+      <SubPageBody id={3}>
+        <ServicesContent />
+      </SubPageBody>
     </div>
   );
 };

@@ -38,7 +38,7 @@ const Footer = () => {
                         </Link>
                         <ul>
                             <li>
-                                <Link className={styles.list} href={"/"}>
+                                <Link className={styles.list} href={"/about"}>
                                     <p className={styles.listText}>
                                         About
                                     </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className={styles.list} href={"/"}>
+                                <Link className={styles.list} href={"/services"}>
                                     <p className={styles.listText}>
                                         Services
                                     </p>
@@ -54,7 +54,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className={styles.list} href={"/"}>
+                                <Link className={styles.list} href={"/vision"}>
                                     <p className={styles.listText}>
                                         Vision
                                     </p>
@@ -62,7 +62,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className={styles.list} href={"/"}>
+                                <Link className={styles.list} href={"/student"}>
                                     <p className={styles.listText}>
                                         Student
                                     </p>
@@ -70,7 +70,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className={styles.list} href={"/"}>
+                                <Link className={styles.list} href={"/team"}>
                                     <p className={styles.listText}>
                                         Team
                                     </p>
@@ -78,7 +78,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className={styles.list} href={"/"}>
+                                <Link className={styles.list} href={"/contact"}>
                                     <p className={styles.listText}>
                                         Contact
                                     </p>

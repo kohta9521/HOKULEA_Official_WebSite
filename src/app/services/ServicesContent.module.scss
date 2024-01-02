@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    .listBox {
+        .list {
+            margin-left: 20px;
+            .listItem {
+                font-size: 20px;
+                line-height: 40px;
+                font-weight: bold;
+            }
+            margin-bottom: 30px;
+        }
+        .mainText {
+
+        }
+    }
+
+    // 事業概要
+    .services {
+        width: 100%;
+        .flexBox {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            .linkBox {
+                width: 40%;
+                height: 400px;
+                padding: 20px;
+                border-radius: 10px;
+                border: 1px solid white;
+                text-align: center;
+                .image {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                }
+                .serviceTitle {
+
+                }
+                &:hover {
+                    border-color: var(--orange-main);
+                    transition: all .4s;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}

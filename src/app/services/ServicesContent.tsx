@@ -31,7 +31,7 @@ const ServicesContent = () => {
             {/* 事業概要 */}
             <div className={styles.services}>
                 <div className={styles.flexBox}>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/community/outdoor"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -40,10 +40,10 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            OUTDOOR
                         </h1>
                     </Link>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/community/surf"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -52,12 +52,12 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            SERFING
                         </h1>
                     </Link>
                 </div>
                 <div className={styles.flexBox}>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/community/vybe"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -66,10 +66,10 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            ENVIRONMENT
                         </h1>
                     </Link>
-                    <Link className={styles.linkBox} href={"/"}>
+                    <Link className={styles.linkBox} href={"/community/event"}>
                         <Image
                             className={styles.image}
                             src={"/images/about.jpg"}
@@ -78,7 +78,7 @@ const ServicesContent = () => {
                             height={300}
                         />
                         <h1 className={styles.serviceTitle}>
-                            EVENT PRODUCE
+                            EVENT
                         </h1>
                     </Link>
                 </div>

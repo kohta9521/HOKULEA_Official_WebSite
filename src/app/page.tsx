@@ -24,8 +24,8 @@ export default function Home() {
         {/* <HoverTile /> */}
         <Service />
         <Vision />
-        <Student />
-        <Team />
+        {/* <Student />
+        <Team /> */}
         <Contact />
         <Footer />
       </MainLayout>

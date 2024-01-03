@@ -41,35 +41,37 @@ const Service = () => {
                         EVENT PRODUCE
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
-                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card2}`}>
                     <p className={styles.cardTitle}>
-                        PRODUCT / SERVICE PRODUCE
+                        PRODUCT<br />
+                        SERVICE PRODUCE
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
-                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                    <Link className={styles.cardVisitButton} href={"/services/productserviceproduce"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card3}`}>
                     <p className={styles.cardTitle}>
-                        CONSULTING
+                        CAST・HUMAN<br />
+                        RESOURCES
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
-                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                    <Link className={styles.cardVisitButton} href={"/services/casthumanresources"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card4}`}>
-                    <p className={styles.cardTitle}>
-                        CONSULTING
-                    </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
-                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
-                </div>
-                <div className={`${styles.card} ${styles.card5}`}>
                     <p className={styles.cardTitle}>
                         SNS MARKETING
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
-                    <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE</Link>
+                    <Link className={styles.cardVisitButton} href={"/services/snsmarketing"}>VIEW MORE ⇨</Link>
+                </div>
+                <div className={`${styles.card} ${styles.card5}`}>
+                    <p className={styles.cardTitle}>
+                        CONSULTING
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/consulting"}>VIEW MORE ⇨</Link>
                 </div>
                 {/* card components 終了（絶対位置はこの場外である） */}
             </div>

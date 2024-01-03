@@ -20,14 +20,14 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.topBox}>
-                    <Link className={styles.footerLink} href={"/about"}>
+                    <Link className={styles.footerLink} href={"/contact"}>
                         <p className={styles.footerLinkText}>
-                            もっと知る
+                            一緒に何かを作りたい!
                         </p>
                     </Link>
-                    <Link className={styles.footerLink} href={"/about"}>
+                    <Link className={styles.footerLink} href={"/contact"}>
                         <p className={styles.footerLinkText}>
-                            もっと知る
+                            団体についてもっと知りたい
                         </p>
                     </Link>
                 </div>

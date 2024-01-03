@@ -5,13 +5,15 @@
             margin-left: 20px;
             .listItem {
                 font-size: 20px;
-                line-height: 40px;
-                font-weight: bold;
+                line-height: 45px;
+                font-weight: 400;
             }
             margin-bottom: 30px;
         }
         .mainText {
-
+            font-size: 18px;
+            line-height: 45px;
+            font-weight: 400;
         }
     }
 
@@ -25,7 +27,7 @@
             margin-bottom: 40px;
             .linkBox {
                 width: 40%;
-                height: 400px;
+                height: 450px;
                 padding: 20px;
                 border-radius: 10px;
                 border: 1px solid white;
@@ -36,7 +38,7 @@
 
                 }
                 .serviceTitle {
-
+                    color: white;
                 }
                 &:hover {
                     border-color: var(--orange-main);

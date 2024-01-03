@@ -12,6 +12,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 
@@ -94,18 +95,18 @@ const Footer = () => {
                         <div className={styles.snsBox}>
                             <ul>
                                 <li>
-                                    <Link className={styles.snsLists} href={"/"}>
+                                    <Link className={styles.snsLists} href={"https://www.instagram.com/hokulea7311/?hl=ja"}>
                                         <FaInstagram className={styles.snsIcon} />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className={styles.snsLists} href={"/"}>
+                                    <Link className={styles.snsLists} href={"https://twitter.com/Hokulea56362564"}>
                                         <FaTwitter className={styles.snsIcon} />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className={styles.snsLists} href={"/"}>
-                                        <FaYoutube className={styles.snsIcon} />
+                                    <Link className={styles.snsLists} href={"https://www.tiktok.com/@hokulea7311"}>
+                                        <FaTiktok className={styles.snsIcon} />
                                     </Link>
                                 </li>
                             </ul>

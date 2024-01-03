@@ -17,9 +17,14 @@
                 height: 130px;
                 border-radius: 20px;
                 padding: 50px;
-                background-color: antiquewhite;
+                background-color: black;
+                border: 1px solid var(--white-main);
                 .footerLinkText {
-                    color: var(--black-main);
+                    color: var(--white-main);
+                }
+                &:hover {
+                    transition: all .8s;
+                    background-color: var(--orange-main);
                 }
             }
         }

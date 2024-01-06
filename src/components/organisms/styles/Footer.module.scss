@@ -156,15 +156,25 @@
             width: 100%;
             .topBox {
                 width: 100%;
-                height: 200px;
+                height: 190px;
                 border-bottom: 0.1px solid var(--white-main);
-                display: flex;
+                display: block;
+                text-align: center;
                 .footerLink {
-                    width: 40%;
-                    height: 10px;
+                    display: block;
+                    width: 90%;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                    padding: 0px;
+                    margin-top: 15px;
+                    height: 80px;
                     border-radius: 20px;
                     background-color: rgb(187, 187, 187);
                     .footerLinkText {
+                        display: block;
+                        margin: 0;
+                        font-size: 14px;
+                        line-height: 80px;
                         color: var(--black-main);
                     }
                 }

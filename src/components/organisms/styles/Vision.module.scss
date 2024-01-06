@@ -48,7 +48,7 @@
 @media screen and (max-width: 1024px) {
     .vision {
         width: 100%;
-        padding: 200px 0;
+        padding: 100px 0;
         box-sizing: border-box;
         background-color: #D9D9D9;
         .container {
@@ -64,15 +64,15 @@
                 display: block;
                 .leftBox {
                     width: 100%;
-                    margin-bottom: -20px;
+                    margin-top: -50px;
+                    margin-bottom: -70px;
                     .text {
                         text-align: left;
                         font-family: Helvetica Neue;
-                        font-size: 17px;
+                        font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
-                        line-height: 35px;
-                        margin-bottom: 100px;
+                        line-height: 20px;
                         color: var(--black-main);
                     }
                 }

@@ -6,6 +6,7 @@ import Menu from "./menu";
 import { AnimatePresence } from "framer-motion";
 import Logo from "@/components/atoms/Logo";
 
+
 export default function Hamburger() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 

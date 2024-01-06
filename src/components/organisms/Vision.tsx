@@ -1,4 +1,9 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from "react";
+
+// aos imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 // scss import
@@ -9,6 +14,14 @@ import SecTitle from '../atoms/SecTitle'
 import ReadMoreButton from '../atoms/ReadMoreButton'
 
 const Vision = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // アニメーションの持続時間
+          once: true, // アニメーションを一度だけ実行する
+        });
+    }, []);
+
+
     return (
         <div className={styles.vision}>
             <div className={styles.container}>
@@ -18,7 +31,7 @@ const Vision = () => {
                     jaTitle={"私たちの考える未来"}
                     enTitle={"VISION"}
                 />
-                <div className={styles.flexBox}>
+                <div className={styles.flexBox} data-aos="fade-up">
                     <div className={styles.leftBox}>
                         <p className={styles.text}>
                         我々のコミュニティは若者によって成り立ってます。<br />
@@ -31,7 +44,7 @@ const Vision = () => {
                         <ReadMoreButton id={1} link="/vision" text="READ MORE" textColor="black" />
                     </div>
                 </div>
-                <div className={styles.imageBox}>
+                <div className={styles.imageBox}  data-aos="fade-up">
                     <img className={styles.image} src="/images/vision.jpg" alt="bottomImage" />
                 </div>
             </div>

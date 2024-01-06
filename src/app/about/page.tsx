@@ -1,7 +1,12 @@
-import React from "react";
+'use client'
+import React, { useEffect } from "react";
 
 // scss import
 import styles from "./About.module.scss";
+
+// aos imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // components import
 import SubPageHeroLayout from "@/components/templates/SubPageHeroLayout";
@@ -14,6 +19,15 @@ import SpaceBox from "@/components/atoms/SpaceBox";
 import SubPageInsertImage from "@/components/atoms/SubPageInsertImage";
 
 const About = () => {
+  // scroll animation
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // アニメーションの持続時間
+      once: true, // アニメーションを一度だけ実行する
+    });
+  }, []);
+
+
   return (
     <div className={styles.about}>
       <Header />

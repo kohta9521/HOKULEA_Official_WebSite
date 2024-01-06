@@ -1,6 +1,10 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from "react";
 import Link from 'next/link'
 
+// aos imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // scss import
 import styles from './styles/Service.module.scss'
@@ -12,6 +16,12 @@ import ReadMoreButton from '../atoms/ReadMoreButton'
 
 
 const Service = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // アニメーションの持続時間
+          once: true, // アニメーションを一度だけ実行する
+        });
+    }, []);
     return (
         <div className={styles.service}>
             <div className={styles.container}>
@@ -36,14 +46,14 @@ const Service = () => {
                     <ReadMoreButton id={1} link="/services" text="READ MORE" textColor="white" />
                 </div>
                 {/* ここから各種サービスの絶対位置の記述 */}
-                <div className={`${styles.card} ${styles.card1}`}>
+                <div className={`${styles.card} ${styles.card1}`} data-aos="slide-left">
                     <p className={styles.cardTitle}>
                         EVENT PRODUCE
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE ⇨</Link>
                 </div>
-                <div className={`${styles.card} ${styles.card2}`}>
+                <div className={`${styles.card} ${styles.card2}`} data-aos="slide-right">
                     <p className={styles.cardTitle}>
                         PRODUCT<br />
                         SERVICE PRODUCE
@@ -51,7 +61,7 @@ const Service = () => {
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/productserviceproduce"}>VIEW MORE ⇨</Link>
                 </div>
-                <div className={`${styles.card} ${styles.card3}`}>
+                <div className={`${styles.card} ${styles.card3}`}  data-aos="slide-left">
                     <p className={styles.cardTitle}>
                         CAST・HUMAN<br />
                         RESOURCES
@@ -59,14 +69,14 @@ const Service = () => {
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/casthumanresources"}>VIEW MORE ⇨</Link>
                 </div>
-                <div className={`${styles.card} ${styles.card4}`}>
+                <div className={`${styles.card} ${styles.card4}`}  data-aos="slide-left">
                     <p className={styles.cardTitle}>
                         SNS MARKETING
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/snsmarketing"}>VIEW MORE ⇨</Link>
                 </div>
-                <div className={`${styles.card} ${styles.card5}`}>
+                <div className={`${styles.card} ${styles.card5}`}  data-aos="slide-right">
                     <p className={styles.cardTitle}>
                         CONSULTING
                     </p>

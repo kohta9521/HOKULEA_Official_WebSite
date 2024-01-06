@@ -1,5 +1,11 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from "react";
 import Link from 'next/link'
+
+// aos imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 // scss import
 import styles from './styles/SubPageHeroLayout.module.scss'
@@ -32,9 +38,15 @@ const SubPageHeroLayout = ({
     desc,
     image
 }: SubPageHeroLayoutProps) => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // アニメーションの持続時間
+          once: true, // アニメーションを一度だけ実行する
+        });
+    }, []);
     return (
         <div className={styles.herolayout} key={id}>
-            <div className={styles.linkBox}>
+            <div className={styles.linkBox}  data-aos="fade-right">
                 <ul>
                     {
                         linklevel.map((link: linkLevel) => {
@@ -49,13 +61,13 @@ const SubPageHeroLayout = ({
                         })
                     }
                 </ul>
-                <div className={styles.titleBox}>
+                <div className={styles.titleBox} data-aos="fade-right">
                     {title}
                 </div>
-                <p className={styles.desc}>
+                <p className={styles.desc} data-aos="fade-left">
                     {desc}
                 </p>
-                <div className={styles.imgBox}>
+                <div className={styles.imgBox} data-aos="fade-right">
                     <Image className={styles.image} width={1700} height={1000} src={image} alt="subPageHeroImage" />
                 </div>
             </div>

@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useEffect } from "react";
 import Image from "next/image";
 
 // scss import
@@ -8,8 +9,17 @@ import styles from "./styles/About.module.scss";
 import SecTitle from "../atoms/SecTitle";
 import ReadMoreButton from "../atoms/ReadMoreButton";
 
+// aos imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // アニメーションの持続時間
+      once: true, // アニメーションを一度だけ実行する
+    });
+  }, []);
   return (
     <div className={styles.about}>
       <div className={styles.container}>
@@ -19,9 +29,9 @@ const About = () => {
           jaTitle={"『HOKULEA』とは"}
           enTitle={"ABOUT"}
         />
-        <div className={styles.flexBox}>
+        <div className={styles.flexBox} data-aos="fade-up">
           <div className={styles.leftBox}>
-            <Image className={styles.image} width={1000} height={500} src="/images/about.jpg" alt="aboutImage" />
+            <Image className={styles.image} width={1000} height={500} src="/images/about2.jpg" alt="aboutImage" />
           </div>
           <div className={styles.rightBox}>
             <h1 className={styles.title}>Community of Generation Z</h1>

@@ -53,6 +53,13 @@ const Service = () => {
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE ⇨</Link>
                 </div>
+                <div className={`${styles.card} ${styles.card5}`}  data-aos="slide-right">
+                    <p className={styles.cardTitle}>
+                        CONSULTING
+                    </p>
+                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <Link className={styles.cardVisitButton} href={"/services/consulting"}>VIEW MORE ⇨</Link>
+                </div>
                 <div className={`${styles.card} ${styles.card2}`} data-aos="slide-right">
                     <p className={styles.cardTitle}>
                         PRODUCT<br />
@@ -75,13 +82,6 @@ const Service = () => {
                     </p>
                     <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/snsmarketing"}>VIEW MORE ⇨</Link>
-                </div>
-                <div className={`${styles.card} ${styles.card5}`}  data-aos="slide-right">
-                    <p className={styles.cardTitle}>
-                        CONSULTING
-                    </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
-                    <Link className={styles.cardVisitButton} href={"/services/consulting"}>VIEW MORE ⇨</Link>
                 </div>
                 {/* card components 終了（絶対位置はこの場外である） */}
             </div>

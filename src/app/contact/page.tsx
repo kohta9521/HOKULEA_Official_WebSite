@@ -38,7 +38,7 @@ const Contact = () => {
         }
         title={
           <h1 className={styles.title}>
-            If you have any queries for us,<br />
+            For any queries,<br />
             please contact us at the bottom of the page.
           </h1>
         }
@@ -47,6 +47,7 @@ const Contact = () => {
       />
       <ScrollText />
       <SubPageBody id={7}>
+        <SpaceBox id={1} level="medium" />
         <SubPageSecTitle
           id={7}
           subTitle="We are always waiting to hear from you. Let's create something together."

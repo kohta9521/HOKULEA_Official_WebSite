@@ -1,5 +1,9 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from "react";
 
+// aos imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // scss import
 import styles from './CommunityContent.module.scss'
@@ -12,6 +16,12 @@ import Link from 'next/link'
 
 
 const CommunityContent = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // アニメーションの持続時間
+          once: true, // アニメーションを一度だけ実行する
+        });
+    }, []);
     return (
         <div className={styles.container}>
             <SubPageSecTitle

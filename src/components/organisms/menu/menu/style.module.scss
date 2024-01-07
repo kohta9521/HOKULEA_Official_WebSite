@@ -43,8 +43,9 @@
     .title {
       color: white;
       text-transform: uppercase;
-      font-size: 45px;
+      font-size: 30px;
       font-weight: 600;
+      line-height: 30px;
       margin: 0px;
       text-decoration: none;
       display: inline-block;
@@ -55,7 +56,7 @@
       content: "";
       position: absolute;
       left: 50%;
-      bottom: 0px;
+      bottom: 20px;
       width: 60%;
       height: 3px;
       opacity: 0;
@@ -69,7 +70,7 @@
     }
     .subTitle {
       display: block;
-      font-size: 17px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 2vw;
       margin-bottom: 20px;
@@ -95,7 +96,7 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .menu {
     .body {
       position: absolute;
@@ -122,8 +123,54 @@
       .title {
         color: white;
         text-transform: uppercase;
-        font-size: 28px;
+        font-size: 27px;
         line-height: 32px;
+        font-weight: 600;
+        margin: 0px;
+        text-decoration: none;
+      }
+      .subTitle {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+  .menu {
+    .body {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 100%;
+      margin-top: 30px;
+      .el {
+        display: block;
+        margin-left: 30px;
+        justify-content: center;
+        cursor: pointer;
+        perspective: 80vw;
+        transform-origin: top;
+        &:hover {
+          .title {
+            color: var(--orange-sub);
+          }
+          .subTitle {
+            color: var(--orange-sub);
+          }
+        }
+      }
+      .title {
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 22px;
         font-weight: 600;
         margin: 0px;
         text-decoration: none;
@@ -132,7 +179,7 @@
         display: block;
         font-size: 12px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 15px;
         margin-bottom: 20px;
       }
     }

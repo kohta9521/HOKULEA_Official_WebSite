@@ -31,7 +31,7 @@ const About = () => {
         />
         <div className={styles.flexBox} data-aos="fade-up">
           <div className={styles.leftBox}>
-            <Image className={styles.image} width={1000} height={500} src="/images/about2.jpg" alt="aboutImage" />
+            <Image className={styles.image} width={1000} height={500} src="/images/about2.jpg" alt="aboutImage" priority={true} quality={100} />
           </div>
           <div className={styles.rightBox}>
             <h1 className={styles.title}>Community of Generation Z</h1>

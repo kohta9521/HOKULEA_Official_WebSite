@@ -43,7 +43,7 @@ const Team = () => {
           </h1>
         }
         desc={"On this page you can get an overview of our community, HOKULEA. Find out about us."}
-        image={"/images/party.jpg"}
+        image={"/images/beachpartyhouse.jpg"}
       />
       <ScrollText />
       {/* main content */}

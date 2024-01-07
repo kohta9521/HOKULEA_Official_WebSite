@@ -37,7 +37,7 @@ const Services = () => {
           </h1>
         }
         desc={"We run a number of great, multi-genre communities. Please take a look here."}
-        image={"/images/party.jpg"}
+        image={"/images/kurisumasu.jpg"}
       />
       <ScrollText />
       {/* main content */}

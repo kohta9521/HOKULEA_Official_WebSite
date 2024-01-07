@@ -54,7 +54,7 @@ const About = () => {
           </h1>
         }
         desc={"On this page you can get an overview of our community, HOKULEA. Find out about us."}
-        image={"/images/party.jpg"}
+        image={"/images/shibuyacleanevent.jpg"}
       />
       <ScrollText />
       {/* main content */}
@@ -97,7 +97,7 @@ const About = () => {
 
         <SubPageInsertImage
           id={1}
-          image={"/images/about.jpg"}
+          image={"/images/outdoor.png"}
           alt={"HOKULEA"}
         />
 

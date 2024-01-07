@@ -32,7 +32,7 @@ const CommunityContent = () => {
                 <div className={styles.contentBox}>
                     <Image
                         className={styles.image}
-                        src={"/images/about.jpg"}
+                        src={"/images/outdoor.png"}
                         alt={"rover"}
                         width={600}
                         height={400}
@@ -53,7 +53,7 @@ const CommunityContent = () => {
                 <div className={styles.contentBox}>
                     <Image
                         className={styles.image}
-                        src={"/images/about.jpg"}
+                        src={"/images/surfingteam.jpg"}
                         alt={"rover"}
                         width={600}
                         height={400}
@@ -73,7 +73,7 @@ const CommunityContent = () => {
                 <div className={styles.contentBox}>
                     <Image
                         className={styles.image}
-                        src={"/images/about.jpg"}
+                        src={"/images/beachclean.jpg"}
                         alt={"rover"}
                         width={600}
                         height={400}
@@ -93,7 +93,7 @@ const CommunityContent = () => {
                 <div className={styles.contentBox}>
                     <Image
                         className={styles.image}
-                        src={"/images/about.jpg"}
+                        src={"/images/party.jpg"}
                         alt={"rover"}
                         width={600}
                         height={400}

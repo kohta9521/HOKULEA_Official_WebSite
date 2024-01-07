@@ -2,18 +2,22 @@
   position: relative;
   width: 100%;
   height: calc(100vh - 100px);
-  padding-top: 300px;
   box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex; // フレックスボックスを使用
+  align-items: center; // 縦方向の中央揃え
+  justify-content: center; // 横方向の中央揃え
   .container {
     max-width: 1500px;
     margin: 0 auto;
     color: var(--white-main);
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .hero {
     height: calc(100vh - 60px);
-    padding-top: 250px;
+    margin-top: -20px;
   }
 }

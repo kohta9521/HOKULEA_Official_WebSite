@@ -2,14 +2,13 @@ import React from "react";
 
 // scss import
 import styles from './Work.module.scss';
+
+// components import
 import Header from "@/components/organisms/Header";
 import SubPageHeroLayout from "@/components/templates/SubPageHeroLayout";
 import ScrollText from "@/components/atoms/ScrollText";
 import SubPageBody from "@/components/templates/SubPageBody";
-import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
-
-// components import
-
+import WorkContent from "./WorkContent";
 
 
 const Work = () => {
@@ -44,11 +43,7 @@ const Work = () => {
       <ScrollText />
       {/* main content */}
       <SubPageBody id={2}>
-        <SubPageSecTitle
-            id={1}
-            subTitle={'TRUST, EXPERTISE, COLLABORATION AND COMMITMENT'}
-            mainTitle="The people are key"
-          />
+        <WorkContent />
       </SubPageBody>
     </div>
   );

@@ -50,14 +50,14 @@ const Service = () => {
                     <p className={styles.cardTitle}>
                         EVENT PRODUCE
                     </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <img className={styles.cardImage} src="/images/beachpartyhouse.jpg" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/eventproduce"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card5}`}  data-aos="slide-right">
                     <p className={styles.cardTitle}>
                         CONSULTING
                     </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <img className={styles.cardImage} src="/images/shibuyacleanevent.jpg" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/consulting"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card2}`} data-aos="slide-right">
@@ -65,7 +65,7 @@ const Service = () => {
                         PRODUCT<br />
                         SERVICE PRODUCE
                     </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <img className={styles.cardImage} src="/images/tracking.jpg" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/productserviceproduce"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card3}`}  data-aos="slide-left">
@@ -73,14 +73,14 @@ const Service = () => {
                         CAST・HUMAN<br />
                         RESOURCES
                     </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <img className={styles.cardImage} src="/images/beachpartygirls.jpg" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/casthumanresources"}>VIEW MORE ⇨</Link>
                 </div>
                 <div className={`${styles.card} ${styles.card4}`}  data-aos="slide-left">
                     <p className={styles.cardTitle}>
                         SNS MARKETING
                     </p>
-                    <img className={styles.cardImage} src="/images/outdoor.png" alt="serviceCardImage" />
+                    <img className={styles.cardImage} src="/images/sns.jpg" alt="serviceCardImage" />
                     <Link className={styles.cardVisitButton} href={"/services/snsmarketing"}>VIEW MORE ⇨</Link>
                 </div>
                 {/* card components 終了（絶対位置はこの場外である） */}

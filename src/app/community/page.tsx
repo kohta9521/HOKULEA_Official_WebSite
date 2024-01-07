@@ -39,7 +39,7 @@ const Community = () => {
           </h1>
         }
         desc={"We run a number of great, multi-genre communities. Please take a look here."}
-        image={"/images/party.jpg"}
+        image={"/images/bbqparty.jpg"}
       />
       <ScrollText />
       {/* main content */}

@@ -1,24 +1,79 @@
-.subChildpage {
+.subChildPage {
+    width: 100%;
+    height: calc(100vh - 100px);
+    // background-color: rgb(66, 66, 66);
     .hero {
-
+        width: 100%;
+        display: flex;
     }
     .leftBox {
+        width: 40%;
+        padding: 200px 150px;
         .subTitle {
-
+            color: var(--yellow-main);
+            font-size: 50px;
+            line-height: 53px;
+            font-weight: bold;
         }
         .title {
-
+            color: var(--white-main);
+            font-size: 100px;
+            line-height: 100px;
+            margin-bottom: 40px;
+            font-weight: bold;
         }
         .desc {
-
+            color: var(--white-main);
+            font-size: 14px;
+            font-weight: 400;
         }
     }
     .rightBox {
+        width: 60%;
+        height: 100%;
         .imageItem {
-
+            margin-top: 300px;
+            width: 100%;
         }
     }
-    .body {
-        
+}
+
+
+@media screen and (max-width: 1024px) {
+    .subChildPage {
+        width: 100%;
+        .hero {
+            width: 100%;
+            display: block;
+        }
+        .leftBox {
+            width: 100%;
+            padding: 100px 10px 0px 10px;
+            .subTitle {
+                color: var(--yellow-main);
+                font-size: 30px;
+                line-height: 35px;
+                font-weight: bold;
+            }
+            .title {
+                color: var(--white-main);
+                font-size: 60px;
+                line-height: 65px;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+            .desc {
+                color: var(--white-main);
+                font-size: 11px;
+                font-weight: 400;
+            }
+        }
+        .rightBox {
+            margin-top: -250px;
+            width: 100%;
+            .imageItem {
+                height: 100%;
+            }
+        }
     }
 }

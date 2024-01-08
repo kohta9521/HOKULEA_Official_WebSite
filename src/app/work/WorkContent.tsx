@@ -16,7 +16,8 @@ const WorkContent = () => {
                 subTitle={'In this section you will find our track record of work.'}
                 mainTitle="Our Past Performance"
             />
-            <SubPageMainText id={1} text='Coming Soon.....' />
+            <SubPageMainText id={1} text='過去の実績などをご覧いただけます。' />
+            <SubPageMainText id={2} text='Coming Soon.....' />
         </div>
     )
 }

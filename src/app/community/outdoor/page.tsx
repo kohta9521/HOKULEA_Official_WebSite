@@ -13,10 +13,11 @@ const Outdoor = () => {
       <Header />
       <SubChildPage
         id={1}
-        subTitle="サブタイトル"
-        title="タイトル"
-        desc="sample your text in darbusu"
+        subTitle="OUTDOOR"
+        title="ROVER"
+        desc="We don't just end up playing activities as friends. Outdoor Community"
       >
+        {/* main content */}
         <h1>hello</h1>
       </SubChildPage>
     </div>

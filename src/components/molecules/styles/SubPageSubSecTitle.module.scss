@@ -1,0 +1,12 @@
+.subTitle {
+    font-size: 20px;
+    color: var(--orange-main);
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .subTitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

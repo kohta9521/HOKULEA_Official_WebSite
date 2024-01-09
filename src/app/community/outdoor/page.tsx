@@ -9,6 +9,7 @@ import SubChildPage from "@/components/templates/SubChildPage";
 import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
 import SubPageMainText from "@/components/molecules/SubPageMainText";
 import SubPageInsertImage from "@/components/atoms/SubPageInsertImage";
+import SubPageSubSecTitle from "@/components/molecules/SubPageSubSecTitle";
 
 const Outdoor = () => {
   return (
@@ -37,12 +38,16 @@ const Outdoor = () => {
         <SubPageSecTitle
           id={7}
           subTitle="We are always waiting to hear from you. Let's create something together."
-          mainTitle="協賛事例"
+          mainTitle="SERVICE CHARGE"
+        />
+        <SubPageSubSecTitle
+          id={0}
+          text="Event Produce"
         />
         <SubPageSecTitle
           id={7}
           subTitle="We are always waiting to hear from you. Let's create something together."
-          mainTitle="SERVICE CHARGE"
+          mainTitle="協賛事例"
         />
       </SubChildPage>
     </div>

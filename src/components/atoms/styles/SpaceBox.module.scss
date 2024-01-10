@@ -6,7 +6,7 @@
 
 // props styling
 .small {
-    height: 100px;
+    height: 40px;
 }
 .medium {
     height: 150px;
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1024px) {
     .small {
-        height: 50px;
+        height: 20px;
     }
     .medium {
         height: 70px;

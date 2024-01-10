@@ -72,6 +72,7 @@ const Outdoor = () => {
           subTitle="We are always waiting to hear from you. Let's create something together."
           mainTitle="協賛事例"
         />
+        <SubPageMainText id={1} text="comming soon...." />
       </SubChildPage>
     </div>
   );

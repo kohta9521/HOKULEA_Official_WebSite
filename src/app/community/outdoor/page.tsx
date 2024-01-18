@@ -19,7 +19,7 @@ const Outdoor = () => {
       <SubChildPage
         id={1}
         subTitle="OUTDOOR"
-        title="ROVER"
+        title="SHIKI"
         img="/images/outdoor.png"
         desc="We don't just end up playing activities as friends. Outdoor Community"
       >
@@ -27,7 +27,7 @@ const Outdoor = () => {
         <SubPageSecTitle
           id={7}
           subTitle="We are always waiting to hear from you. Let's create something together."
-          mainTitle="About Rover..."
+          mainTitle="About SHIKI..."
         />
         <SubPageMainText
           id={1}

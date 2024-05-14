@@ -35,7 +35,7 @@ const About = () => {
               className={styles.image}
               width={1000}
               height={500}
-              src="/images/new/top.jpgl"
+              src="/images/new/165.jpg"
               alt="aboutImage"
               priority={true}
               quality={70}

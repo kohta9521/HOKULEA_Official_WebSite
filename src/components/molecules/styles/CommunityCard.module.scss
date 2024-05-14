@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  padding: 0 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  &::nth-child(2) {
+    border-top: 1px solid var(--white-main);
+  }
+  .number {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+    color: var(--orange-main);
+  }
+  .main {
+    font-size: 40px;
+    min-width: 250px;
+    color: var(--white-main);
+  }
+  .desc {
+    font-size: 15px;
+    color: var(--white-main);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}

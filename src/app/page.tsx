@@ -12,6 +12,8 @@ import Footer from "@/components/organisms/Footer";
 import Student from "@/components/organisms/Student";
 import Team from "@/components/organisms/Team";
 import Contact from "@/components/organisms/Contact";
+import Work from "@/components/organisms/Work";
+import Community from "@/components/organisms/Community";
 
 // components import
 
@@ -21,8 +23,10 @@ export default function Home() {
       <MainLayout id={1}>
         <Hero />
         <About />
+        <Work />
         {/* <HoverTile /> */}
         <Service />
+        <Community />
         <Vision />
         {/* <Student />
         <Team /> */}

@@ -20,6 +20,9 @@ export type CommunityCardProps = {
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// icon
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 const CommunityCard = ({
   id,
   link,
@@ -38,6 +41,7 @@ const CommunityCard = ({
       <p className={styles.number}>{number}</p>
       <h1 className={styles.main}>{title}</h1>
       <p className={styles.desc}>{desc}</p>
+      <MdOutlineKeyboardArrowRight className={styles.icon} />
     </Link>
   );
 };

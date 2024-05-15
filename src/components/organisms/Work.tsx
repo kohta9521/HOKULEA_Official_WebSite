@@ -1,9 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 
-// next
-import Image from "next/image";
-
 // scss
 import styles from "./styles/Work.module.scss";
 

@@ -1,5 +1,7 @@
 .titleBox {
   width: 100%;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
   margin-bottom: 100px;
   .flexBox {
     width: 100%;
@@ -37,6 +39,7 @@
 @media screen and (max-width: 1024px) {
   .titleBox {
     width: 100%;
+    margin-bottom: 80px;
     .flexBox {
       width: 100%;
       display: flex;

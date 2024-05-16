@@ -1,16 +1,55 @@
 .team {
-    width: 100%;
-    // TODO: 後で消す
-    height: 1800px;
-    padding: 200px 0;
-    box-sizing: border-box;
-    .container {
-        width: 80%;
-        max-width: 1300px;
-        height: 100%;
-        margin: 0 auto;
-        h1 {
-            color: var(--white-main);
-        }
+  width: 100%;
+  // TODO: 後で消す
+  height: auto;
+  padding: 0;
+  box-sizing: border-box;
+  .container {
+    position: relative;
+    width: 80%;
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    h1 {
+      color: var(--white-main);
     }
+    .image {
+      width: 100%;
+      height: auto;
+    }
+    .rightBox {
+      position: absolute;
+      width: auto;
+      margin-top: 50px;
+      height: auto;
+      right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .team {
+    .container {
+      position: relative;
+      width: 90%;
+      max-width: 1300px;
+      height: 100%;
+      margin: 0 auto;
+      h1 {
+        color: var(--white-main);
+      }
+      .image {
+        width: 100%;
+        margin-top: -50px;
+        height: auto;
+      }
+      .rightBox {
+        position: absolute;
+        width: auto;
+        margin-top: 50px;
+        height: auto;
+        right: 0;
+      }
+    }
+  }
 }

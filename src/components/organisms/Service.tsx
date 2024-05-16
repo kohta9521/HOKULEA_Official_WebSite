@@ -28,7 +28,7 @@ const Service = () => {
         <SectionBorder id={1} color="white" />
         <SecTitle
           id={1}
-          number={"02"}
+          number={"03"}
           jaTitle={"各種サービス"}
           enTitle={"SERVICES"}
         />

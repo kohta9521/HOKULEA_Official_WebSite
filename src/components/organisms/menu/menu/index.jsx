@@ -15,17 +15,12 @@ const menu = [
   },
   {
     title: "ABOUT",
-    subTitle: "Hokuleaについて",
+    subTitle: "HOKULEAについて",
     link: "/about",
   },
   {
-    title: "COMMUNITY",
-    subTitle: "コミュニティについて",
-    link: "/community",
-  },
-  {
     title: "WORK",
-    subTitle: "お仕事や依頼について",
+    subTitle: "過去の仕事",
     link: "/work",
   },
   {
@@ -34,14 +29,24 @@ const menu = [
     link: "/services",
   },
   {
-    title: "VISION",
-    subTitle: "ビジョンについて",
-    link: "/vision",
+    title: "OUR EVENTS",
+    subTitle: "我々のイベント",
+    link: "/event",
   },
   {
     title: "TEAM",
-    subTitle: "一緒に作り上げるチームメイト",
+    subTitle: "チーム",
     link: "/team",
+  },
+  {
+    title: "COMMUNITY & STUDENTS",
+    subTitle: "コミュニティとメンバー",
+    link: "/team",
+  },
+  {
+    title: "GALLERY",
+    subTitle: "写真一覧",
+    link: "/gallery",
   },
   {
     title: "CONTACT",

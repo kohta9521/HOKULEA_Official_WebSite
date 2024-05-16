@@ -27,7 +27,7 @@ const Work = () => {
         <div className={styles.flexBox} data-aos="fade-up">
           <WorkCard
             id={1}
-            image="/images/new/171.jpg"
+            image="/images/new/uni.jpg"
             title="UNILEVER PROJECT"
             link="/work"
           />
@@ -39,7 +39,7 @@ const Work = () => {
           />
           <WorkCard
             id={3}
-            image="/images/new/95.png"
+            image="/images/new/95.jpg"
             title="Surfrider Foundation PROJECT"
             link="/work"
           />

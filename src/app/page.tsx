@@ -14,6 +14,7 @@ import Team from "@/components/organisms/Team";
 import Contact from "@/components/organisms/Contact";
 import Work from "@/components/organisms/Work";
 import Community from "@/components/organisms/Community";
+import Gallery from "@/components/organisms/Gallery";
 
 // components import
 
@@ -27,9 +28,11 @@ export default function Home() {
         {/* <HoverTile /> */}
         <Service />
         <Community />
-        <Vision />
+        {/* <Vision /> */}
         {/* <Student />
         <Team /> */}
+        <Team />
+        <Gallery />
         <Contact />
         <Footer />
       </MainLayout>

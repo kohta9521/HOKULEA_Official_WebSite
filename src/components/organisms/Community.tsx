@@ -24,9 +24,9 @@ const Community = () => {
       <div className={styles.container}>
         <SecTitle
           id={1}
-          number={"05"}
-          jaTitle={"コミュニティ"}
-          enTitle={"COMMUNITY"}
+          number={"04"}
+          jaTitle={"コミュニティ&学生"}
+          enTitle={"COMMUNITY&STUDENTS"}
         />
         <div className={styles.cardBox}>
           <CommunityCard
@@ -34,28 +34,28 @@ const Community = () => {
             link="/community/surf"
             number="01"
             title="GNARLYS"
-            desc="若者のクリエイティブとエナジーが行き交う場。"
+            desc="サーフカルチャーを起点に海を愛す若者が集うコミュニティ"
           />
           <CommunityCard
             id={2}
             link="/community/outdoor"
             number="02"
             title="SHIKI"
-            desc="若者のクリエイティブとエナジーが行き交う場。"
+            desc="自然を愛し、アウトドアアクティビティを好む若者が集うコミュニティ"
           />
           <CommunityCard
             id={3}
             link="/community/vybe"
             number="03"
             title="VYBE"
-            desc="若者のクリエイティブとエナジーが行き交う場。"
+            desc="COOLかつCASUALに環境問題アクションを行う若者コミュニティ"
           />
           <CommunityCard
             id={4}
             link="/community/event"
             number="04"
             title="EVENT"
-            desc="若者のクリエイティブとエナジーが行き交う場。"
+            desc="都心の若者の心をくすぐる大規模イベントをプロデュー"
           />
         </div>
       </div>

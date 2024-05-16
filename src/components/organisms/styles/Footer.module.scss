@@ -1,305 +1,304 @@
 .footer {
+  width: 100%;
+  height: auto;
+  border-top: 0.1px solid var(--white-main);
+  color: var(--white-main);
+  .container {
     width: 100%;
-    height: 800px;
+    .topBox {
+      width: 100%;
+      height: 200px;
+      border-bottom: 0.1px solid var(--white-main);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .footerLink {
+        width: 30%;
+        height: 130px;
+        border-radius: 20px;
+        padding: 50px;
+        background-color: black;
+        border: 1px solid var(--white-main);
+        .footerLinkText {
+          color: var(--white-main);
+        }
+        &:hover {
+          transition: all 0.8s;
+          background-color: var(--orange-main);
+        }
+      }
+    }
+    .centerBox {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      .leftBox {
+        width: 30%;
+        border-right: 0.1px solid var(--white-main);
+        padding-left: 30px;
+        .logoLink {
+          display: block;
+          width: 40%;
+          height: 50px;
+          line-height: 50px;
+          margin-top: 20px;
+          margin-bottom: 40px;
+          font-size: 30px;
+          font-weight: bold;
+          color: var(--white-main);
+        }
+        ul {
+          li {
+            width: 200px;
+            height: 30px;
+            list-style: none;
+            color: var(--white-main);
+            .list {
+              display: flex;
+              align-items: center;
+              .listText {
+                color: var(--white-main);
+                font-size: 20px;
+                line-height: 24px;
+                margin-right: 20px;
+              }
+              .linkIcon {
+                color: var(--white-main);
+              }
+            }
+          }
+        }
+        .contactButton {
+          display: block;
+          width: 80%;
+          height: 80px;
+          border-radius: 10px;
+          margin-top: 20px;
+          margin-bottom: 40px;
+          padding-left: 30px;
+          background: white;
+          background-color: var(--white-main);
+          .contactButtonText {
+            color: var(--black-main);
+            line-height: 80px;
+          }
+        }
+        .snsBox {
+          width: 40%;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            color: var(--white-main);
+            li {
+              list-style: none;
+              color: var(--white-main);
+              .snsLists {
+                color: var(--white-main);
+                .snsIcon {
+                  color: var(--white-main);
+                }
+              }
+            }
+          }
+        }
+      }
+      .rightBox {
+        padding: 150px 200px;
+        width: 70%;
+        .nextText {
+          display: block;
+          font-size: 80x;
+          margin-bottom: 20px;
+          color: var(--white-main);
+        }
+        .nextButton {
+          font-size: 100px;
+          font-weight: bold;
+          margin-right: 50px;
+          color: var(--white-main);
+          &:hover {
+            translate: 20px;
+            transition: all 0.3s ease-in-out;
+          }
+          .arrowIcon {
+            font-size: 80px;
+            color: var(--white-main);
+            &:hover {
+              translate: 20px;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+    .bottomBox {
+      width: 100%;
+      height: 100px;
+      border-top: 0.1px solid var(--white-main);
+      text-align: center;
+      color: var(--white-main);
+      .copyRight {
+        font-size: 13px;
+        line-height: 100px;
+        color: var(--gray-main);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 100%;
     border-top: 0.1px solid var(--white-main);
     color: var(--white-main);
     .container {
+      width: 100%;
+      .topBox {
         width: 100%;
-        .topBox {
-            width: 100%;
-            height: 200px;
-            border-bottom: 0.1px solid var(--white-main);
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            .footerLink {
-                width: 30%;
-                height: 130px;
-                border-radius: 20px;
-                padding: 50px;
-                background-color: black;
-                border: 1px solid var(--white-main);
-                .footerLinkText {
-                    color: var(--white-main);
-                }
-                &:hover {
-                    transition: all .8s;
-                    background-color: var(--orange-main);
-                }
-            }
+        height: 190px;
+        border-bottom: 0.1px solid var(--white-main);
+        display: block;
+        text-align: center;
+        .footerLink {
+          display: block;
+          width: 90%;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          padding: 0px;
+          margin-top: 15px;
+          height: 80px;
+          border-radius: 20px;
+          background-color: rgb(187, 187, 187);
+          .footerLinkText {
+            display: block;
+            margin: 0;
+            font-size: 14px;
+            line-height: 80px;
+            color: var(--black-main);
+          }
         }
-        .centerBox {
-            width: 100%;
-            height: 500px;
-            display: flex;
-            .leftBox {
-                width: 30%;
-                border-right: 0.1px solid var(--white-main);
-                padding-left: 30px;
-                .logoLink {
-                    display: block;
-                    width: 40%;
-                    height: 50px;
-                    line-height: 50px;
-                    margin-top: 20px;
-                    margin-bottom: 40px;
-                    font-size: 30px;
-                    font-weight: bold;
-                    color: var(--white-main);
-                }
-                ul {
-                    li {
-                        width: 200px;
-                        height: 30px;
-                        list-style: none;
-                        color: var(--white-main);
-                        .list {
-                            display: flex;
-                            align-items: center;
-                            .listText {
-                                color: var(--white-main);
-                                font-size: 20px;
-                                line-height: 24px;
-                                margin-right: 20px;
-                            }
-                            .linkIcon {
-                                color: var(--white-main);
-                            }
-                        }
-                    }
-                }
-                .contactButton {
-                    display: block;
-                    width: 80%;
-                    height: 80px;
-                    border-radius: 10px;
-                    margin-top: 20px;
-                    margin-bottom: 40px;
-                    padding-left: 30px;
-                    background: white;
-                    background-color: var(--white-main);
-                    .contactButtonText {
-                        color: var(--black-main);
-                        line-height: 80px;
-                    }
-                }
-                .snsBox {
-                    width: 40%;
-                    ul {
-                        display: flex;
-                        justify-content: space-between;
-                        color: var(--white-main);
-                        li {
-                            list-style: none;
-                            color: var(--white-main);
-                            .snsLists {
-                                color: var(--white-main);
-                                .snsIcon {
-                                    color: var(--white-main);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            .rightBox {
-                padding: 150px 200px;
-                width: 70%;
-                .nextText {
-                    display: block;
-                    font-size: 80x;
-                    margin-bottom: 20px;
-                    color: var(--white-main);
-                }
-                .nextButton {
-                    font-size: 100px;
-                    font-weight: bold;
-                    margin-right: 50px;
-                    color: var(--white-main);
-                    &:hover {
-                        translate: 20px;
-                        transition: all  0.3s ease-in-out;
-                    }
-                    .arrowIcon {
-                        font-size: 80px;
-                        color: var(--white-main);
-                        &:hover {
-                            translate: 20px;
-                            transition: all  0.3s ease-in-out;
-                        }
-                    }
-                }
-            }
-        }
-        .bottomBox {
-            width: 100%;
-            height: 100px;
-            border-top: 0.1px solid var(--white-main);
-            text-align: center;
+      }
+      .centerBox {
+        width: 100%;
+        height: 500px;
+        display: block;
+        .leftBox {
+          width: 100%;
+          padding-left: 30px;
+          // border: 1px solid var(--white-main);
+          border-right: 0.1px solid var(--black-main);
+          .logoLink {
+            display: block;
+            width: 40%;
+            height: 50px;
+            line-height: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
             color: var(--white-main);
-            .copyRight {
-                font-size: 13px;
-                line-height: 100px;
-                color: var(--gray-main);
-            }
-        }
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-    .footer {
-        width: 100%;
-        border-top: 0.1px solid var(--white-main);
-        color: var(--white-main);
-        .container {
-            width: 100%;
-            .topBox {
-                width: 100%;
-                height: 190px;
-                border-bottom: 0.1px solid var(--white-main);
-                display: block;
-                text-align: center;
-                .footerLink {
-                    display: block;
-                    width: 90%;
-                    margin: 0 auto;
-                    margin-bottom: 10px;
-                    padding: 0px;
-                    margin-top: 15px;
-                    height: 80px;
-                    border-radius: 20px;
-                    background-color: rgb(187, 187, 187);
-                    .footerLinkText {
-                        display: block;
-                        margin: 0;
-                        font-size: 14px;
-                        line-height: 80px;
-                        color: var(--black-main);
-                    }
+          }
+          ul {
+            li {
+              width: 200px;
+              height: 30px;
+              list-style: none;
+              color: var(--white-main);
+              .list {
+                display: flex;
+                align-items: center;
+                .listText {
+                  color: var(--white-main);
+                  font-size: 17px;
+                  line-height: 24px;
+                  margin-right: 20px;
                 }
-            }
-            .centerBox {
-                width: 100%;
-                height: 600px;
-                display: block;
-                .leftBox {
-                    width: 100%;
-                    padding-left: 30px;
-                    // border: 1px solid var(--white-main);
-                    border-right: 0.1px solid var(--black-main);
-                    .logoLink {
-                        display: block;
-                        width: 40%;
-                        height: 50px;
-                        line-height: 50px;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                        font-size: 20px;
-                        font-weight: bold;
-                        color: var(--white-main);
-                    }
-                    ul {
-                        li {
-                            width: 200px;
-                            height: 30px;
-                            list-style: none;
-                            color: var(--white-main);
-                            .list {
-                                display: flex;
-                                align-items: center;
-                                .listText {
-                                    color: var(--white-main);
-                                    font-size: 17px;
-                                    line-height: 24px;
-                                    margin-right: 20px;
-                                }
-                                .linkIcon {
-                                    color: var(--white-main);
-                                }
-                            }
-                        }
-                    }
-                    .contactButton {
-                        display: block;
-                        width: 80%;
-                        height: 80px;
-                        border-radius: 10px;
-                        margin-top: 20px;
-                        margin-bottom: 40px;
-                        padding-left: 30px;
-                        background: white;
-                        background-color: var(--white-main);
-                        .contactButtonText {
-                            color: var(--black-main);
-                            line-height: 80px;
-                        }
-                    }
-                    .snsBox {
-                        width: 40%;
-                        margin-bottom: 10px;
-                        ul {
-                            display: flex;
-                            justify-content: space-between;
-                            color: var(--white-main);
-                            li {
-                                list-style: none;
-                                color: var(--white-main);
-                                .snsLists {
-                                    color: var(--white-main);
-                                    .snsIcon {
-                                        color: var(--white-main);
-                                    }
-                                }
-                            }
-                        }
-                    }
+                .linkIcon {
+                  color: var(--white-main);
                 }
-                .rightBox {
-                    padding: 30px 20px;
-                    width: 100%;
-                    height: 200px;
-                    border-top: 1px solid var(--white-main);
-                    text-align: center;
-                    .nextText {
-                        display: block;
-                        font-size: 40x;
-                        margin-right: 20px;
-                        margin-bottom: 20px;
-                        color: var(--white-main);
-                    }
-                    .nextButton {
-                        font-size: 40px;
-                        font-weight: bold;
-                        color: var(--white-main);
-                        &:hover {
-                            translate: 20px;
-                            transition: all  0.3s ease-in-out;
-                        }
-                        .arrowIcon {
-                            font-size: 40px;
-                            line-height: 80px;
-                            color: var(--white-main);
-                            &:hover {
-                                translate: 20px;
-                                transition: all  0.3s ease-in-out;
-                            }
-                        }
-                    }
-                }
+              }
             }
-            .bottomBox {
-                width: 100%;
-                height: 40px;
-                border-top: 0.1px solid var(--white-main);
-                text-align: center;
+          }
+          .contactButton {
+            display: block;
+            width: 80%;
+            height: 80px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            padding-left: 30px;
+            background: white;
+            background-color: var(--white-main);
+            .contactButtonText {
+              color: var(--black-main);
+              line-height: 80px;
+            }
+          }
+          .snsBox {
+            width: 40%;
+            margin-bottom: 10px;
+            ul {
+              display: flex;
+              justify-content: space-between;
+              color: var(--white-main);
+              li {
+                list-style: none;
                 color: var(--white-main);
-                .copyRight {
-                    font-size: 13px;
-                    line-height: 40px;
-                    color: var(--gray-main);
+                .snsLists {
+                  color: var(--white-main);
+                  .snsIcon {
+                    color: var(--white-main);
+                  }
                 }
+              }
             }
+          }
         }
+        .rightBox {
+          padding: 30px 20px;
+          width: 100%;
+          height: 200px;
+          border-top: 1px solid var(--white-main);
+          text-align: center;
+          .nextText {
+            display: block;
+            font-size: 40x;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            color: var(--white-main);
+          }
+          .nextButton {
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--white-main);
+            &:hover {
+              translate: 20px;
+              transition: all 0.3s ease-in-out;
+            }
+            .arrowIcon {
+              font-size: 40px;
+              line-height: 80px;
+              color: var(--white-main);
+              &:hover {
+                translate: 20px;
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+      .bottomBox {
+        width: 100%;
+        height: 40px;
+        border-top: 0.1px solid var(--white-main);
+        text-align: center;
+        color: var(--white-main);
+        .copyRight {
+          font-size: 13px;
+          line-height: 40px;
+          color: var(--gray-main);
+        }
+      }
     }
+  }
 }

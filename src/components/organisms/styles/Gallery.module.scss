@@ -1,0 +1,47 @@
+.gallery {
+  width: 100%;
+  height: auto;
+  padding: 300px 0 100px 0px;
+}
+.centerBox {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.container {
+  // display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  // gap: 16px;
+  // max-width: 1200px; /* Optional: Set a max width for better layout control */
+  // margin: 0 auto; /* Center the container */
+  // padding: 0 20px; /* Add horizontal padding */
+}
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 1280px) {
+  .gallery {
+    padding: 150px 0 50px 0px;
+  }
+  .centerBox {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: -50px;
+  }
+}

@@ -6,11 +6,11 @@ import styles from "./styles/Event.module.scss";
 
 // components
 import SecTitle from "../atoms/SecTitle";
+import Slide from "../molecules/Slide";
 
 // aos
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SwiperComponent from "../molecules/SwiperComponent";
 
 const Event = () => {
   useEffect(() => {
@@ -28,9 +28,7 @@ const Event = () => {
           jaTitle={"我々のイベント"}
           enTitle={"OUR EVENTS"}
         />
-        <div className={styles.main}>
-          <SwiperComponent />
-        </div>
+        <Slide />
       </div>
     </div>
   );

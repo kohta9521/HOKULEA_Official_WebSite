@@ -33,6 +33,7 @@ export default function Home() {
         {/* <Vision /> */}
         {/* <Student />
         <Team /> */}
+        <Event />
         <Team />
         <Gallery />
         <Contact />

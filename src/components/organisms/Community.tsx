@@ -55,7 +55,7 @@ const Community = () => {
             link="/community/event"
             number="04"
             title="EVENT"
-            desc="都心の若者の心をくすぐる大規模イベントをプロデュー"
+            desc="都心の若者の心をくすぐる大規模イベントをプロデュース"
           />
         </div>
       </div>

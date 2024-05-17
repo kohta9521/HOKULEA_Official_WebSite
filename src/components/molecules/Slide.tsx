@@ -38,7 +38,7 @@ const Slide = () => {
           alt="workImage"
         />
         <div className={styles.flexBox}>
-          <h2 className={styles.title}>Clean Party~</h2>
+          <h2 className={styles.title}>Seasonal Events~</h2>
           <ReadMoreButton
             id={1}
             link="/about"
@@ -56,10 +56,10 @@ const Slide = () => {
           alt="workImage"
         />
         <div className={styles.flexBox}>
-          <h2 className={styles.title}>Clean Party~</h2>
+          <h2 className={styles.title}>UFES~</h2>
           <ReadMoreButton
             id={1}
-            link="/about"
+            link="https://ufes-2024-official-site.vercel.app/"
             text="VIEW MORE"
             textColor="white"
           />

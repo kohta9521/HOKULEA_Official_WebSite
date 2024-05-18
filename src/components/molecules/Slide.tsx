@@ -20,10 +20,10 @@ const Slide = () => {
           alt="workImage"
         />
         <div className={styles.flexBox}>
-          <h2 className={styles.title}>Clean Party~</h2>
+          <h2 className={styles.title}>Clean Party</h2>
           <ReadMoreButton
             id={1}
-            link="/about"
+            link="https://vybe-3c.my.canva.site/cleanparty"
             text="VIEW MORE"
             textColor="white"
           />

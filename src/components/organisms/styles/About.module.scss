@@ -40,6 +40,8 @@
           font-weight: 400;
           line-height: 35px;
           margin-bottom: 100px;
+          word-break: keep-all;
+          overflow-wrap: break-word;
         }
         .buttonBox {
           position: absolute;

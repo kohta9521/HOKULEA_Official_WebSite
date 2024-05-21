@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 
 // next
 import Link from "next/link";
+import Image from "next/image";
 
 // scss
 import styles from "./styles/CommunityCard.module.scss";
@@ -38,10 +39,22 @@ const CommunityCard = ({
   }, []);
   return (
     <Link className={styles.card} href={link} key={id} data-aos="fade-up">
-      <p className={styles.number}>{number}</p>
-      <h1 className={styles.main}>{title}</h1>
-      <p className={styles.desc}>{desc}</p>
-      <MdOutlineKeyboardArrowRight className={styles.icon} />
+      <div className={styles.flexBox}>
+        <p className={styles.number}>{number}</p>
+        <h1 className={styles.main}>{title}</h1>
+        <p className={styles.desc}>{desc}</p>
+        <MdOutlineKeyboardArrowRight className={styles.icon} />
+      </div>
+
+      <div className={styles.hoverImage}>
+        <Image
+          src="/images/new/2.jpg"
+          className={styles.image}
+          width={400}
+          height={400}
+          alt="コミュニティ画像"
+        />
+      </div>
     </Link>
   );
 };

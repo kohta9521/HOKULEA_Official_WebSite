@@ -5,7 +5,7 @@ import { useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 
-export default function LinkComponent({ data, index }) {
+export default function LinkComponent({ data, index, closeMenu, handleClick }) {
   const { title, subTitle, link } = data;
   const outer = useRef(null);
   const inner = useRef(null);
@@ -50,9 +50,7 @@ export default function LinkComponent({ data, index }) {
       <Link
         href={link}
         className={styles.title}
-        onClick={() => {
-          closeMenu();
-        }}
+        onClick={(e) => handleClick(e, link)}
       >
         {title}
         <span className={styles.subTitle}>{subTitle}</span>

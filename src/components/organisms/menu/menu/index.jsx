@@ -26,7 +26,7 @@ const menu = [
   {
     title: "SERVICES",
     subTitle: "各種サービスについて",
-    link: "/services",
+    link: "#service",
   },
   {
     title: "OUR EVENTS",
@@ -56,6 +56,20 @@ const menu = [
 ];
 
 export default function header({ closeMenu }) {
+  const handleClick = (e, link) => {
+    if (link.startsWith("#")) {
+      e.preventDefault();
+      closeMenu(); // 追加: メニューを閉じる
+      const id = link.substring(1);
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      closeMenu(); // 追加: メニューを閉じる
+    }
+  };
+
   return (
     <div className={styles.menu}>
       <div className={styles.header}>
@@ -79,7 +93,15 @@ export default function header({ closeMenu }) {
       <div className={styles.body}>
         <div className={styles.leftLists}>
           {menu.map((el, index, link) => {
-            return <Link data={el} link={link} index={index} key={index} />;
+            return (
+              <Link
+                data={el}
+                link={link}
+                index={index}
+                key={index}
+                handleClick={handleClick}
+              />
+            );
           })}
         </div>
       </div>

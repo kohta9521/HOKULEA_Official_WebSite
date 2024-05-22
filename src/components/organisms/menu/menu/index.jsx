@@ -41,7 +41,7 @@ const menu = [
   {
     title: "COMMUNITY & STUDENTS",
     subTitle: "コミュニティとメンバー",
-    link: "/team",
+    link: "/community",
   },
   {
     title: "GALLERY",

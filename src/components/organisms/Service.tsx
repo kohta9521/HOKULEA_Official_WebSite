@@ -22,7 +22,7 @@ const Service = () => {
     });
   }, []);
   return (
-    <div className={styles.service}>
+    <div className={styles.service} id="service">
       <div className={styles.container}>
         {/* TODO: なぜかコンポーネントが読み込まれない */}
         <SectionBorder id={1} color="white" />

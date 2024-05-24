@@ -52,12 +52,6 @@ const Service = () => {
             貴社のプロダクトやイベントに合わせ、HOKULEAのチームがサポートに入りクリエイティブに仕上げていきます。
             <br />
           </p>
-          <ReadMoreButton
-            id={1}
-            link="/services"
-            text="READ MORE"
-            textColor="white"
-          />
         </div>
         {/* ここから各種サービスの絶対位置の記述 */}
         <div className={`${styles.card} ${styles.card1}`} data-aos="fade-up">

@@ -1,7 +1,7 @@
 import React from "react";
 
 // scss import
-import styles from './Community.module.scss';
+import styles from "./Community.module.scss";
 
 // components import
 import Header from "@/components/organisms/Header";
@@ -11,34 +11,34 @@ import SubPageBody from "@/components/templates/SubPageBody";
 import SubPageSecTitle from "@/components/atoms/SubPageSecTitle";
 import CommunityContent from "./CommunityContent";
 
-
 const Community = () => {
   return (
     <div className={styles.community}>
       <Header />
       <SubPageHeroLayout
         id={1}
-        linklevel={
-          [
-            {
-                id: 1,
-                text: "HOME",
-                link: "/"
-            },
-            {
-                id: 2,
-                text: "COMMUNITY",
-                link: "/community"
-            }
-          ]
-        }
+        linklevel={[
+          {
+            id: 1,
+            text: "HOME",
+            link: "/",
+          },
+          {
+            id: 2,
+            text: "COMMUNITY",
+            link: "/community",
+          },
+        ]}
         title={
           <h1 className={styles.title}>
-            Introducing many of the wonderful<br />
-            communities we operate
+            COMMUNITY
+            <br />
+            STUDENTS
           </h1>
         }
-        desc={"We run a number of great, multi-genre communities. Please take a look here."}
+        desc={
+          "We run a number of great, multi-genre communities. Please take a look here."
+        }
         image={"/images/bbqparty.jpg"}
       />
       <ScrollText />

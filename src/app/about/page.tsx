@@ -44,13 +44,7 @@ const About = () => {
             link: "/about",
           },
         ]}
-        title={
-          <h1 className={styles.title}>
-            What HOKULEA aims for
-            <br />
-            and about us
-          </h1>
-        }
+        title={<h1 className={styles.title}>ABOUT</h1>}
         desc={
           "On this page you can get an overview of our community, HOKULEA. Find out about us."
         }

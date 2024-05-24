@@ -1,11 +1,12 @@
 import React from "react";
 
 // next
-import Link from "next/link";
 import Image from "next/image";
 
 // scss
 import styles from "./styles/Slide.module.scss";
+
+// components
 import ReadMoreButton from "../atoms/ReadMoreButton";
 
 const Slide = () => {

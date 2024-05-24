@@ -35,6 +35,7 @@ const Community = () => {
             number="01"
             title="GNARLYS"
             desc="サーフカルチャーを起点に海を愛す若者が集うコミュニティ"
+            img="/images/surfing.jpg"
           />
           <CommunityCard
             id={2}
@@ -42,6 +43,7 @@ const Community = () => {
             number="02"
             title="SHIKI"
             desc="自然を愛し、アウトドアアクティビティを好む若者が集うコミュニティ"
+            img="/images/outdoor.png"
           />
           <CommunityCard
             id={3}
@@ -49,6 +51,7 @@ const Community = () => {
             number="03"
             title="VYBE"
             desc="COOLかつCASUALに環境問題アクションを行う若者コミュニティ"
+            img="/images/new/155.jpg"
           />
           <CommunityCard
             id={4}
@@ -56,6 +59,7 @@ const Community = () => {
             number="04"
             title="EVENT"
             desc="都心の若者の心をくすぐる大規模イベントをプロデュース"
+            img="/images/party.jpg"
           />
         </div>
       </div>

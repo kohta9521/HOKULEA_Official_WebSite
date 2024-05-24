@@ -15,6 +15,7 @@ export type CommunityCardProps = {
   number: string;
   title: string;
   desc: string;
+  img: string;
 };
 
 // aos
@@ -30,6 +31,7 @@ const CommunityCard = ({
   number,
   title,
   desc,
+  img
 }: CommunityCardProps) => {
   useEffect(() => {
     AOS.init({
@@ -48,7 +50,7 @@ const CommunityCard = ({
 
       <div className={styles.hoverImage}>
         <Image
-          src="/images/new/2.jpg"
+          src={img}
           className={styles.image}
           width={400}
           height={400}

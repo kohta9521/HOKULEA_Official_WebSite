@@ -1,79 +1,58 @@
 [
-    {
-        "id": 1,
-        "name": "Keitaro Mori",
-        "post": "CEO Community specialist traveller ",
-        "image": "/images/member/sample.png",
-        "desc": "sample"
-    },
-    {
-        "id": 2,
-        "name": "Kanetora Kanenari ",
-        "post": "LUTEN event specialist",
-        "image": "/images/member/sample.png",
-        "desc": "sample"
-    },
-    {
-        "id": 3,
-        "name": "Kohta Kochi",
-        "post": "Enginner Developer",
-        "image": "/images/member/sample.png",
-        "desc": "sample"
-    },
-    {
-        "id": 4,
-        "name": "Miyu Yagi",
-        "post": "SNS coordinator",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 5,
-        "name": "Karen Hasegawa",
-        "post": "",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 6,
-        "name": "Hayato",
-        "post": "sports expert",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 7,
-        "name": "Sota Funamizu",
-        "post": "",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 8,
-        "name": "Kaiya Sato",
-        "post": "",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 9,
-        "name": "Tsukuru Komai",
-        "post": "",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 10,
-        "name": "Yudai Yokoyama",
-        "post": "",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    },
-    {
-        "id": 11,
-        "name": "Takumi Yasumiba",
-        "post": "",
-        "image": "/images/member/sample.png",
-        "desc": ""
-    }
+  {
+    "id": 3,
+    "name": "Takumi Yasumiba",
+    "post": "-professional surfer-",
+    "image": "/images/member/sample.png",
+    "desc": "sample"
+  },
+  {
+    "id": 4,
+    "name": "Ryu",
+    "post": "-professional photographer-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  },
+  {
+    "id": 5,
+    "name": "Ayaka",
+    "post": "-SNS cordinator-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  },
+  {
+    "id": 6,
+    "name": "Kohta Kochi",
+    "post": "-Engineer-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  },
+  {
+    "id": 7,
+    "name": "Miyu",
+    "post": "-SNS creator-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  },
+  {
+    "id": 8,
+    "name": "Kosuke",
+    "post": "-movie creator-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  },
+  {
+    "id": 9,
+    "name": "Yurina Morishita",
+    "post": "-Sustainabirity specialist-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  },
+  {
+    "id": 10,
+    "name": "Momoka",
+    "post": "-movie creator-",
+    "image": "/images/member/sample.png",
+    "desc": ""
+  }
 ]

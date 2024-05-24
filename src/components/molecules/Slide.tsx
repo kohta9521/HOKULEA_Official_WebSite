@@ -43,7 +43,7 @@ const Slide = () => {
           </h2>
           <ReadMoreButton
             id={1}
-            link="/about"
+            link="https://vybe-3c.my.canva.site/seasonal-events"
             text="VIEW MORE"
             textColor="white"
           />

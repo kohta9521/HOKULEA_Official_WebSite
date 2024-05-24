@@ -139,7 +139,7 @@ const CommunityContent = () => {
           <h1 className={styles.titleNumber}>4</h1>
           <div className={styles.titleRow}>
             <h3 className={`${styles.titleText} ${styles.red}`}>EVENT</h3>
-            <h3 className={styles.mainTitle}>Luten</h3>
+            <h3 className={styles.mainTitle}>Event</h3>
           </div>
         </div>
         <div className={styles.contentBox}>

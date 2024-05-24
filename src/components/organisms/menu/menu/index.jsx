@@ -29,11 +29,6 @@ const menu = [
     link: "#service",
   },
   {
-    title: "OUR EVENTS",
-    subTitle: "我々のイベント",
-    link: "/event",
-  },
-  {
     title: "TEAM",
     subTitle: "チーム",
     link: "/team",
@@ -43,11 +38,11 @@ const menu = [
     subTitle: "コミュニティとメンバー",
     link: "/community",
   },
-  {
-    title: "GALLERY",
-    subTitle: "写真一覧",
-    link: "/gallery",
-  },
+  // {
+  //   title: "GALLERY",
+  //   subTitle: "写真一覧",
+  //   link: "/gallery",
+  // },
   {
     title: "CONTACT",
     subTitle: "お問い合わせ",

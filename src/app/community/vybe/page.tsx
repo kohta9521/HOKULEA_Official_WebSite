@@ -14,8 +14,8 @@ const Vybe = () => {
       <Header />
       <SubChildPage
         id={3}
-        subTitle="Entertainment"
-        title="Vybe"
+        subTitle="Environment"
+        title="VYBE"
         img="/images/beachclean.jpg"
         desc="We don't just end up playing activities as friends. Outdoor Community"
       >

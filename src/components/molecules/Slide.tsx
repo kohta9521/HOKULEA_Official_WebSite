@@ -14,7 +14,7 @@ const Slide = () => {
     <div className={styles.box}>
       <div className={styles.card}>
         <Image
-          src="/images/new/1003.jpg"
+          src="/images/new/1003.png"
           width={900}
           height={500}
           className={styles.image}
@@ -32,7 +32,7 @@ const Slide = () => {
       </div>
       <div className={styles.card}>
         <Image
-          src="/images/new/1002.jpg"
+          src="/images/new/1002.png"
           width={900}
           height={500}
           className={styles.image}

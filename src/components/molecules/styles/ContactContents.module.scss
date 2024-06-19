@@ -44,19 +44,21 @@
 @media screen and (max-width: 1280px) {
   .contact {
     width: 100%;
+    padding-top: 30px;
     form {
       width: 100%;
       label {
         display: block;
         width: 100%;
         font-size: 16px;
+        font-weight: 550;
         margin-bottom: 10px;
-        color: var(--main-green-color);
+        color: var(--orange-main);
       }
       .icon {
         display: inline;
         margin-left: 10px;
-        color: var(--main-pink-color);
+        color: white;
       }
       input {
         width: 100%;
@@ -73,11 +75,12 @@
       button {
         display: block;
         width: 100%;
-        padding: 10px 10px;
-        color: var(--main-black-color);
-        background-color: var(--main-green-color);
+        padding: 20px 10px;
+        color: var(--orange-main);
+        border: 1px solid var(--orange-main);
+        background-color: var(--black-main);
         &:hover {
-          background-color: var(--sub-green-color);
+          background-color: var(--orange-main);
         }
       }
     }
